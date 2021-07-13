@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "password": "!bkaYWj4UDZvncXhxguOWL70BlV7kZKUYXhSu21FI",
+    "first_name": "barack",
+    "last_name": "obama",
+    "username": "barack.hussein.obama",
+    "email": "barack.hussein.obama@president.usgov.com"
+  },
+
+  {
+    "id": 2,
+    "password": "!bkaYWj4UDZvncXhxguOWL70BlV7kZKUYXhSu21FI",
+    "first_name": "donald",
+    "last_name": "trump",
+    "username": "donald.john.tump.sr",
+    "email": "donald.john.tump.sr@president.usgov.com"
+  },
+  {
+    "id": 3,
+    "password": "!bkaYWj4UDZvncXhxguOWL70BlV7kZKUYXhSu21FI",
+    "first_name": "joseph",
+    "last_name": "biden",
+    "username": "joseph.robinette.biden.jr",
+    "email": "joseph.robinette.biden.jr@president.usgov.com"
+  },
+  {
+    "id": 1,
+    "user": 1,
+    "middle_name": "hussein",
+    "image": "default.webp",
+    "headline": "44th president of the United States",
+    "profile_image_processed": false,
+    "bio": "is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and as an Illinois state senator from 1997 to 2004.",
+
+    "pronouns": "HE",
+    "date_modified": "2021-05-20T01:07:10.133Z",
+    "date_created": "2021-05-20T01:07:10.133Z"
+  },
+  {
+    "id": 2,
+    "user": 2,
+    "middle_name": "john",
+    "image": "default.webp",
+    "headline": "45th president of the United States",
+    "profile_image_processed": false,
+    "bio": "is an American businessman, who served as the 45th president of the United States of America.",
+    "pronouns": "HE",
+    "date_modified": "2021-05-20T01:07:10.133Z",
+    "date_created": "2021-05-20T01:07:10.133Z"
+  },
+  {
+    "id": 3,
+    "user": 3,
+    "middle_name": "robinette",
+    "image": "default.webp",
+    "headline": "46th president of the United States",
+    "profile_image_processed": true,
+    "bio": "is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he served as the 47th vice president from 2009 to 2017 under Barack Obama and represented Delaware in the United States Senate from 1973 to 2009.",
+    "pronouns": "HE",
+    "date_modified": "2021-05-20T01:07:10.133Z",
+    "date_created": "2021-05-20T01:07:10.133Z"
+  }
+]
