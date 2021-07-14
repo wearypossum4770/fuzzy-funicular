@@ -29,6 +29,7 @@ function App() {
           <li>
             <Link to="/todos">Todo List</Link>
           </li>
+          <li><Link to="/todos/create">Add Todo</Link></li>
         </ul>
         <hr />
         <Switch>
@@ -36,9 +37,9 @@ function App() {
             {/* <UserContext.Provider value={user}> */}
             {/* <Route exact path="/register" component={Signup} /> */}
             <Route exact path="/" component={Home} />
+            <Route exact path="/todos/create" component={TodoCreate}/>
             <Route exact path="/todos" component={TodoList} />
             <Route exact path="/todos/:id" component={TodoDetail} />
-            <Route exact path="todos/create" component={TodoCreate}/>
             {/* <Route exact path="/about" component={About} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/timeentry" component={TimeEntry} /> */}
