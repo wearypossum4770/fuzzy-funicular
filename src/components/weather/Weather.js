@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useFetchData from "../hooks/useFetchData";
+import useFetchData from "../../hooks/useFetchData";
 import { dateBuilder } from "./helpers.js";
 export default function Weather({
   api_key = "7af4edd80277ecd98c9eb7b15f9cfb84",

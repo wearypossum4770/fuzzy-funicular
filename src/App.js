@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/home/Home";
 import About from './pages/about/About'
+import Weather from  './components/weather/Weather'
 import TodoList from "./components/todo/TodoList";
 import Dashboard from './pages/Dashboard'
 import Post from "./components/blog/Post";
@@ -52,12 +53,14 @@ export default function App() {
             {/* <UserContext.Provider value={user}> */}
             {/* <Route exact path="/register" component={Signup} /> */}
             <Route exact path="/" component={Home} />
+            <Route exact path="/todos/create" component={TodoCreate}/>
             <Route exact path="/todos" component={TodoList} />
             <Route exact path="/todos/edit/:id" component={TodoDetail} />
             <Route exact path="/todos/create" component={TodoCreate} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/timeclock" component={TimeClock} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/weather" component={Weather}/>
             <BlogContext.Provider value={posts}>
                 <Route exact path="/blog" component={Blog} />
                 <Route path="/blog/:id" component={Post} />
