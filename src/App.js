@@ -1,12 +1,19 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import todolist from "./data/todoinit.json";
+import posts from './data/posts.json'
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from './pages/about/About'
 import TodoList from "./components/todo/TodoList";
+import Dashboard from './pages/Dashboard'
+import Post from "./components/blog/Post";
+import Blog from "./components/blog/Blog";
 import TodoCreate from "./components/todo/TodoCreate";
 import TodoDetail from "./components/todo/TodoDetail";
+import TimeClock from "./pages/TimeClock";
 import { TodoContext } from "./context/TodoContext";
-import todolist from "./data/todoinit.json";
-import Home from "./components/home/Home";
-function App() {
+import { BlogContext } from "./context/BlogContext";
+export default function App() {
   return (
     <Router>
       <div>
@@ -29,6 +36,15 @@ function App() {
           <li>
             <Link to="/todos">Todo List</Link>
           </li>
+          <li>
+            <Link to="/timeclock">Time Clock</Link>
+          </li>
+              <li>
+                <Link to="/weather">Weather</Link>
+              </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
         </ul>
         <hr />
         <Switch>
@@ -37,10 +53,17 @@ function App() {
             {/* <Route exact path="/register" component={Signup} /> */}
             <Route exact path="/" component={Home} />
             <Route exact path="/todos" component={TodoList} />
-            <Route exact path="/todos/:id" component={TodoDetail} />
-            <Route exact path="todos/create" component={TodoCreate}/>
-            {/* <Route exact path="/about" component={About} />
+            <Route exact path="/todos/edit/:id" component={TodoDetail} />
+            <Route exact path="/todos/create" component={TodoCreate} />
             <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/timeclock" component={TimeClock} />
+            <Route exact path="/about" component={About} />
+            <BlogContext.Provider value={posts}>
+                <Route exact path="/blog" component={Blog} />
+                <Route path="/blog/:id" component={Post} />
+              </BlogContext.Provider>
+            {/* 
+            
             <Route exact path="/timeentry" component={TimeEntry} /> */}
             {/* </UserContext.Provider> */}
           </TodoContext.Provider>
@@ -49,5 +72,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
