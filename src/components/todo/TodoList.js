@@ -1,6 +1,6 @@
-import { TodoContext } from "../../context/TodoContext";
-import { useHistory } from "react-router-dom";
 import { useContext } from "react";
+import { useHistory } from "react-router-dom";
+import { TodoContext } from "../../context/TodoContext";
 export default function TodoList() {
   let history = useHistory();
   let todoList = useContext(TodoContext);

@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
 import { useContext } from "react";
+import { useParams } from "react-router-dom";
 import { TodoContext } from "../../context/TodoContext";
 export default function TodoDetail() {
   let { id } = useParams();

@@ -1,7 +1,8 @@
-import {Link} from "react-router-dom";
-export default function Dashboard(){
-    return (<div>
-        <ul>
+import { Link } from "react-router-dom";
+export default function Dashboard() {
+  return (
+    <div>
+      <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -13,5 +14,5 @@ export default function Dashboard(){
         </li>
       </ul>
     </div>
-    )
+  );
 }

@@ -1,7 +1,7 @@
+import { configure, shallow } from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 import React from "react";
 import TimeClock from "../pages/TimeClock.js";
-import Adapter from "enzyme-adapter-react-16";
-import { shallow, configure } from "enzyme";
 configure({ adapter: new Adapter() });
 describe("TimeClock", () => {
   it("renders without errors", () => {

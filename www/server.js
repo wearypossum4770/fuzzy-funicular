@@ -5,6 +5,7 @@ import express from "express";
 import mongoose from "mongoose";
 import path from "path";
 import admin from "sriracha";
+import employeeRouter from "./routers/employees.js";
 import exerciseRouter from "./routers/exercises.js";
 import blogPostRouter from "./routers/posts.js";
 import userRouter from "./routers/users.js";
@@ -44,7 +45,8 @@ app.use(express.static("files"));
 app.use(express.urlencoded({ extended: false, limit: "1mb" }));
 app.use(express.json({ limit: "1mb", extended: true }));
 app.get("/", (req, res) => {
-  res.json(...req,"Hello World!");
+  console.log(req.body);
+  res.json("Hello World!");
 });
 app.use(
   "/admin",
@@ -63,37 +65,42 @@ app.use(
     ],
   })
 );
-app.use("/exercise", exerciseRouter);
+app.use("/employees", employeeRouter);
+app.use("/exercises", exerciseRouter);
 app.use("/users", userRouter);
-app.use("/blog", blogPostRouter);
-const server = app.listen(PORT, () =>
-  console.log(`EXPRESS Server is running on port:${PORT}`)
-);
-setInterval(
-  () =>
-    server.getConnections((err, connections) =>
-      console.log(`${connections} connections currently open`)
-    ),
-  100000
-);
-process.on("SIGTERM", shutDown);
-process.on("SIGINT", shutDown);
-function shutDown() {
-  console.log("\nReceived kill signal, shutting down gracefully");
-  console.log(`\nClosing app on port: ${PORT}`);
-  server.close(() => {
-    console.log("\nClosed out remaining connections");
-    console.log("\nHTTP server closed");
-    process.exit(0);
-  });
-  setTimeout(() => {
-    console.error(
-      "Could not close connections in time, forcefully shutting down"
-    );
-    process.exit(1);
-  }, 10000);
-  server.getConnections((err, connections) => {
-    connections.forEach((curr) => curr.end());
-    setTimeout(() => connections.forEach((curr) => curr.destroy()), 5000);
-  });
+app.use("/blogs", blogPostRouter);
+try {
+  const server = app.listen(PORT, () =>
+    console.log(`EXPRESS Server is running on port:${PORT}`)
+  );
+  setInterval(
+    () =>
+      server.getConnections((err, connections) =>
+        console.log(`${connections} connections currently open`)
+      ),
+    100000
+  );
+  process.on("SIGTERM", shutDown);
+  process.on("SIGINT", shutDown);
+  function shutDown() {
+    console.log("\nReceived kill signal, shutting down gracefully");
+    console.log(`\nClosing app on port: ${PORT}`);
+    server.close(() => {
+      console.log("\nClosed out remaining connections");
+      console.log("\nHTTP server closed");
+      process.exit(0);
+    });
+    setTimeout(() => {
+      console.error(
+        "Could not close connections in time, forcefully shutting down"
+      );
+      process.exit(1);
+    }, 10000);
+    server.getConnections((err, connections) => {
+      connections.forEach((curr) => curr.end());
+      setTimeout(() => connections.forEach((curr) => curr.destroy()), 5000);
+    });
+  }
+} catch (err) {
+  console.log(err);
 }
