@@ -7,7 +7,8 @@ export default function EmployeeCreate() {
     start_date: null,
     end_date: null,
   });
-  const handleChange= ({target:{name,value}}) =>setEmployee({...employee, [name]:value})
+  const handleChange = ({ target: { name, value } }) =>
+    setEmployee({ ...employee, [name]: value });
   return (
     <form>
       <div>
@@ -19,7 +20,7 @@ export default function EmployeeCreate() {
       <div>
         <label htmlFor="gender">
           Gender:
-          <select name="gender"onChange={handleChange}>
+          <select name="gender" onChange={handleChange}>
             <option value="M">
               I identify as a male or a man (i.e. male, cis-gender male), and
               prefer to be called sir

@@ -1,11 +1,12 @@
+import { useEffect } from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Blog from "./components/blog/Blog";
 import Post from "./components/blog/Post";
 import EmployeeCreate from "./components/employee/EmployeeCreate";
+import EmployeeList from "./components/employee/EmployeeList";
 import TodoCreate from "./components/todo/TodoCreate";
 import TodoDetail from "./components/todo/TodoDetail";
-import EmployeeList from './components/employee/EmployeeList'
 import TodoList from "./components/todo/TodoList";
 import Weather from "./components/weather/Weather";
 import { BlogContext } from "./context/BlogContext";
@@ -16,7 +17,45 @@ import About from "./pages/about/About";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/home/Home";
 import TimeClock from "./pages/TimeClock";
+import dummmyData from './dummmyData.json'
+import cuid from 'cuid'
 export default function App() {
+  useEffect(() => {
+    let data = dummmyData 
+      async function getter(obj) {
+      try {
+        let userID = obj?.id;
+        let options = {
+          mode: "cors",
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: JSON.stringify(obj),
+        };
+
+        const resp = await fetch(`http://localhost:3003/employees/add/${userID}`, options);
+        if (resp.ok) {
+          let response = await resp.json();
+          console.log(response);
+          console.log(userID)
+        }
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    data.forEach((user) => {
+      console.log(user.id)
+      
+      if (user.id==='610ac56ac38eed25e3ff85a0'){
+      // 610acd12a1aa362cbe5f8b50'){
+        getter(user)
+      }
+// 610ac56ac38eed25e3ff85a0
+      // console.log(user)
+    });
+  }, []);
   return (
     <Router>
       <div>
@@ -66,7 +105,7 @@ export default function App() {
             <Route exact path="/timeclock" component={TimeClock} />
             <Route exact path="/about" component={About} />
             <Route exact path="/weather" component={Weather} />
-            <Route exact path="/employees" component={EmployeeList}/>
+            <Route exact path="/employees" component={EmployeeList} />
             <Route exact path="/employees/create" component={EmployeeCreate} />
             <BlogContext.Provider value={posts}>
               <Route exact path="/blog" component={Blog} />

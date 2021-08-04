@@ -7,10 +7,10 @@ userRouter.route("/bulk-create").post(async (req, res) => {
     let userList = req.body;
     let arr = userList?.map((user) => ({
       ...user,
-      madienName: user.madien_name,
-      firstName: user.first_name,
-      lastName: user.last_name,
-      middleName: user.middle_name,
+      madienName: user?.madien_name,
+      firstName: user?.first_name,
+      lastName: user?.last_name,
+      middleName: user?.middle_name,
     }));
     await User.create(arr);
     await User.init();
@@ -36,16 +36,16 @@ userRouter.route("/add").post(async (req, res) => {
       username,
       email,
       nickname,
-      first_name: { firstName },
-      last_name: { lastName },
-      middle_name: { middleName },
-      madien_name: { madienName },
+      first_name: firstName,
+      last_name: lastName,
+      middle_name: middleName,
+      madien_name: madienName,
       title,
-      honorific_prefix /**:{honorificPrefix} */,
-      honorific_suffix /**:{honorificSuffix} */,
+      honorific_prefix /**:honorificPrefix */,
+      honorific_suffix /**:honorificSuffix */,
       suffix,
-      date_of_death /**:{dateOfDeath} */,
-      do_not_contact /**:{doNotContact} */,
+      date_of_death /**:dateOfDeath */,
+      do_not_contact /**:doNotContact */,
     } = req.body;
     const newUser = new User({
       password,
@@ -62,7 +62,6 @@ userRouter.route("/add").post(async (req, res) => {
       suffix,
       date_of_death,
       do_not_contact,
-      prompt_password_change,
     });
     await newUser.save({ timestamps: true });
     res.json(`User Added`);
@@ -82,16 +81,18 @@ userRouter.route("update/:id").post(async (req, res) => {
   try {
     let {
       nickname,
-      first_name: { firstName },
-      last_name: { lastName },
-      middle_name: { middleName },
       title,
-      honorific_prefix /**:{honorificPrefix} */,
-      honorific_suffix /**:{honorificSuffix} */,
+      honorific_prefix /**:honorificPrefix */,
+      honorific_suffix /**:honorificSuffix */,
+      first_name: firstName,
+      last_name: lastName,
+      middle_name: middleName,
+      date_of_death /**:dateOfDeath */,
+      do_not_contact /**:doNotContact */,
+
+      madien_name: madienName,
+
       suffix,
-      madien_name: { madienName },
-      date_of_death /**:{dateOfDeath} */,
-      do_not_contact /**:{doNotContact} */,
     } = req.body;
     let { id } = req.params;
     let user = await User.findById(id);

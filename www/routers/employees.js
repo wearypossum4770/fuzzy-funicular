@@ -1,6 +1,8 @@
 "use strict";
+import cuid from 'cuid'
 import { Router } from "express";
 import { Employee } from "../models/employee.model.js";
+import { User } from "../models/user.model.js";
 const employeeRouter = Router();
 employeeRouter.route("/").get(async (req, res) => {
   try {
@@ -12,66 +14,82 @@ employeeRouter.route("/").get(async (req, res) => {
     res.status(400).json(`ERROR:${err}`);
   }
 });
-employeeRouter.route("/add").post(async (req, res) => {
+employeeRouter.route("/add/:userID").post(async (req, res) => {
   try {
+    let { userID } = req.params;
+    
+    let user = await User.findById(userID).exec()
+    return res.json(user)
+
     let {
-      date_of_birth: { dateOfBirth },
+      date_of_birth:  dateOfBirth ,
       gender,
-      phone_number: { phoneNumber },
-      start_date: { startDate },
-      end_date: { endDate },
-      on_boarding: { onboarding },
+      regular_rate:  regularRate ,
+      sync_token:  syncToken ,
+      clock_id:  clockID ,
+      pay_type:  payType ,
+      phone_number:  phoneNumber ,
+      start_date:  startDate ,
+      end_date:  endDate ,
+      // on_boarding:  onboarding ,
     } = req.body;
-    let newEmployee = Employee.create({
+
+    let newEmployee = new Employee({
       dateOfBirth,
       gender,
       phoneNumber,
       startDate,
       endDate,
-      onboarding,
+      regularRate,
+      syncToken,
+      clockID,
+      payType,
+      user: user?.__id,
+      // onboarding,
     });
     await newEmployee.save({ timestamps: true });
     res.json(`Employee Added`);
   } catch (err) {
-    res.status(400).json(`Error: ${err.message}`);
+    res.status(400).json(`Error: ${err}`);
   }
 });
-employeeRouter.route("/:id").get(async (req, res) => {
+// employeeRouter.route("/:id").get(async (req, res) => {
+//   try {
+//     let { id } = req.params;
+//     res.json(await User.findById(id));
+//   } catch (err) {
+//     res.status(400).json(`Error: ${err.message}`);
+//   }
+// });
+employeeRouter.route("update/:userID").post(async (req, res) => {
   try {
-    let { id } = req.params;
-    res.json(await User.findById(id));
-  } catch (err) {
-    res.status(400).json(`Error: ${err.message}`);
-  }
-});
-employeeRouter.route("update/:id").post(async (req, res) => {
-  try {
+    let { userID } = req.params;
+    let user = await User.findById(userID).exec();
+    let employee = await Employee.findById();
     let {
-      nickname,
-      first_name: { firstName },
-      last_name: { lastName },
-      middle_name: { middleName },
-      title,
-      honorific_prefix /**:{honorificPrefix} */,
-      honorific_suffix /**:{honorificSuffix} */,
-      suffix,
-      madien_name: { madienName },
-      date_of_death /**:{dateOfDeath} */,
-      do_not_contact /**:{doNotContact} */,
+      date_of_birth: dateOfBirth ,
+      gender,
+      regular_rate: regularRate ,
+      sync_token: syncToken ,
+      clock_id: clockID ,
+      pay_type: payType ,
+      phone_number: phoneNumber ,
+      start_date: startDate ,
+      end_date: endDate ,
+      // on_boarding: onboarding ,
     } = req.body;
-    let { id } = req.params;
-    let user = await User.findById(id);
-    user.nickname = nickname;
-    user.firstName = firstName;
-    user.lastName = lastName;
-    user.middleName = middleName;
-    user.madienName = madienName;
-    user.title = title;
-    user.honorific_prefix = honorific_prefix;
-    user.honorific_suffix = honorific_suffix;
-    user.suffix = suffix;
-    user.date_of_death = Date.parse(date_of_death);
-    user.do_not_contact = do_not_contact;
+    employee.dateOfBirth = dateOfBirth;
+    employee.gender = gender;
+    employee.phoneNumber = phoneNumber;
+    employee.startDate = startDate;
+    employee.endDate = endDate;
+    employee.regularRate = regularRate;
+    employee.syncToken = syncToken;
+    employee.clockID = clockID;
+    employee.payType = payType;
+    employee.user = user?.__id;
+
+    // user.date_of_death = Date.parse(date_of_death);
     res.json(`User information updated for: ${user.username}`);
   } catch (err) {
     res.status(400).json(`Error: ${err.message}`);
