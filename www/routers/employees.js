@@ -1,5 +1,4 @@
 "use strict";
-import cuid from 'cuid'
 import { Router } from "express";
 import { Employee } from "../models/employee.model.js";
 import { User } from "../models/user.model.js";
@@ -17,23 +16,20 @@ employeeRouter.route("/").get(async (req, res) => {
 employeeRouter.route("/add/:userID").post(async (req, res) => {
   try {
     let { userID } = req.params;
-    
-    let user = await User.findById(userID).exec()
-    return res.json(user)
-
+    let user = await User.findById(userID).exec();
     let {
-      date_of_birth:  dateOfBirth ,
+      id: user_id,
+      date_of_birth: dateOfBirth,
       gender,
-      regular_rate:  regularRate ,
-      sync_token:  syncToken ,
-      clock_id:  clockID ,
-      pay_type:  payType ,
-      phone_number:  phoneNumber ,
-      start_date:  startDate ,
-      end_date:  endDate ,
-      // on_boarding:  onboarding ,
+      regular_rate: regularRate,
+      sync_token: syncToken,
+      clock_id: clockID,
+      pay_type: payType,
+      phone_number: phoneNumber,
+      start_date: startDate,
+      end_date: endDate,
+      // on_boarding:  onBoarding ,
     } = req.body;
-
     let newEmployee = new Employee({
       dateOfBirth,
       gender,
@@ -44,13 +40,13 @@ employeeRouter.route("/add/:userID").post(async (req, res) => {
       syncToken,
       clockID,
       payType,
-      user: user?.__id,
-      // onboarding,
+      user: user_id,
+      // onBoarding,
     });
     await newEmployee.save({ timestamps: true });
-    res.json(`Employee Added`);
+    return res.json(`Employee Added`);
   } catch (err) {
-    res.status(400).json(`Error: ${err}`);
+    return res.status(400).json(`Error: ${err}`);
   }
 });
 // employeeRouter.route("/:id").get(async (req, res) => {
@@ -67,15 +63,15 @@ employeeRouter.route("update/:userID").post(async (req, res) => {
     let user = await User.findById(userID).exec();
     let employee = await Employee.findById();
     let {
-      date_of_birth: dateOfBirth ,
+      date_of_birth: dateOfBirth,
       gender,
-      regular_rate: regularRate ,
-      sync_token: syncToken ,
-      clock_id: clockID ,
-      pay_type: payType ,
-      phone_number: phoneNumber ,
-      start_date: startDate ,
-      end_date: endDate ,
+      regular_rate: regularRate,
+      sync_token: syncToken,
+      clock_id: clockID,
+      pay_type: payType,
+      phone_number: phoneNumber,
+      start_date: startDate,
+      end_date: endDate,
       // on_boarding: onboarding ,
     } = req.body;
     employee.dateOfBirth = dateOfBirth;

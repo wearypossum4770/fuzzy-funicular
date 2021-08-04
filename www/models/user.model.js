@@ -44,19 +44,12 @@ export const userSchema = new Schema(
       adminSearchField: false,
     },
     date_of_birth: { type: Date, adminSearchField: true },
-    username: {
-      trim: true,
-      type: String,
-
-      unique: true,
-      minlength: 3,
-    },
+    username: { trim: true, type: String, unique: true, minlength: 3 },
     email: {
       trim: true,
       type: String,
       admin: false,
       unique: true,
-
       match: /.+\@.+\..+/,
       index: { unique: true, sparse: true },
     },

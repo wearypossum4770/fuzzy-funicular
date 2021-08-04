@@ -1,4 +1,6 @@
 "use strict";
+import "dotenv/config" 
+import {exec} from 'child_process'
 import optimus from "connect-image-optimus";
 import cors from "cors";
 import express from "express";
@@ -9,7 +11,20 @@ import employeeRouter from "./routers/employees.js";
 import exerciseRouter from "./routers/exercises.js";
 import blogPostRouter from "./routers/posts.js";
 import userRouter from "./routers/users.js";
-let command = "sudo service mongodb start";
+import  util from 'util'
+const execute = util.promisify(exec)
+let desktop = "sudo service mongodb start";
+let chromebook = "sudo chown `whoami` /var/lib/mongo && sudo chown `whoami` /var/log/mongodb&& mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork"
+async function subprocess(command){
+  try {
+    const { stdout, stderr } = await execute(command);
+    console.log('stdout:', stdout);
+    console.log('stderr:', stderr);
+}catch (err){
+   console.error(err);
+};
+}
+(process.env.CURRENT_OPERATING_SYSTEM==="DESKTOP")?subprocess(desktop):subprocess(chromebook)   
 var staticPath = path.dirname(".") + "/static/";
 const PORT = process.env.PORT || 3003;
 const productionMode = process.env.NODE_ENV === "production";

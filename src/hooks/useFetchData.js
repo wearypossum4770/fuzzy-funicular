@@ -5,10 +5,12 @@ export default function useFetchData(performFetch, url) {
   useEffect(() => {
     let options = {
       mode: "cors",
+      headers: { "Content-Type": "application/json" },
+      // 'Content-Type': 'application/x-www-form-urlencoded',
     };
     async function getData() {
       try {
-        const resp = await fetch(url, options);
+        const resp = await fetch(`http://localhost:3003/${url}`, options);
         if (resp.ok) {
           let data = await resp.json();
           setResponse(data);

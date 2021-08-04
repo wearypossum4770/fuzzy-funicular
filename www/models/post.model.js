@@ -17,5 +17,4 @@ const blogPostSchema = new Schema({
   tags: { adminFieldType: "array", type: Array },
   published: { type: Boolean, default: false },
 });
-
 export const BlogPost = mongoose.model("Post", blogPostSchema);

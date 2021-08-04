@@ -13,48 +13,36 @@ import { BlogContext } from "./context/BlogContext";
 import { TodoContext } from "./context/TodoContext";
 import posts from "./data/posts.json";
 import todolist from "./data/todoinit.json";
+import dummmyData from "./dummmyData.json";
 import About from "./pages/about/About";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/home/Home";
 import TimeClock from "./pages/TimeClock";
-import dummmyData from './dummmyData.json'
-import cuid from 'cuid'
 export default function App() {
   useEffect(() => {
-    let data = dummmyData 
-      async function getter(obj) {
+    let data = dummmyData;
+    async function getter(obj) {
       try {
         let userID = obj?.id;
         let options = {
           mode: "cors",
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            // 'Content-Type': 'application/x-www-form-urlencoded',
-          },
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify(obj),
         };
-
-        const resp = await fetch(`http://localhost:3003/employees/add/${userID}`, options);
+        const resp = await fetch(
+          `http://localhost:3003/employees/add/${userID}`,
+          options
+        );
         if (resp.ok) {
           let response = await resp.json();
           console.log(response);
-          console.log(userID)
         }
       } catch (err) {
         console.log(err);
       }
     }
-    data.forEach((user) => {
-      console.log(user.id)
-      
-      if (user.id==='610ac56ac38eed25e3ff85a0'){
-      // 610acd12a1aa362cbe5f8b50'){
-        getter(user)
-      }
-// 610ac56ac38eed25e3ff85a0
-      // console.log(user)
-    });
+    // data.forEach((user) => getter(user))
   }, []);
   return (
     <Router>
@@ -104,16 +92,14 @@ export default function App() {
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/timeclock" component={TimeClock} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/weather" component={Weather} />
+            {/* <Route exact path="/weather" component={Weather} /> */}
             <Route exact path="/employees" component={EmployeeList} />
             <Route exact path="/employees/create" component={EmployeeCreate} />
             <BlogContext.Provider value={posts}>
               <Route exact path="/blog" component={Blog} />
               <Route path="/blog/:id" component={Post} />
             </BlogContext.Provider>
-            {/* 
-            
-            <Route exact path="/timeentry" component={TimeEntry} /> */}
+            {/* <Route exact path="/timeentry" component={TimeEntry} /> */}
             {/* </UserContext.Provider> */}
           </TodoContext.Provider>
         </Switch>

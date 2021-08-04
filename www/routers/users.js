@@ -79,6 +79,8 @@ userRouter.route("/:id").get(async (req, res) => {
 });
 userRouter.route("update/:id").post(async (req, res) => {
   try {
+    let { id } = req.params;
+    let user = await User.findById(id);
     let {
       nickname,
       title,
@@ -89,13 +91,9 @@ userRouter.route("update/:id").post(async (req, res) => {
       middle_name: middleName,
       date_of_death /**:dateOfDeath */,
       do_not_contact /**:doNotContact */,
-
       madien_name: madienName,
-
       suffix,
     } = req.body;
-    let { id } = req.params;
-    let user = await User.findById(id);
     user.nickname = nickname;
     user.firstName = firstName;
     user.lastName = lastName;

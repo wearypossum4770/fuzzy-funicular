@@ -1,8 +1,6 @@
 import { Router } from "express";
 import { Address } from "../models/addresses.models.js";
-
 const addressRouter = Router();
-
 addressRouter.route("/").get((req, res) => {
   Address.find({})
     .then((addresses) => res.json(addresses))
