@@ -92,7 +92,7 @@ export default function App() {
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/timeclock" component={TimeClock} />
             <Route exact path="/about" component={About} />
-            {/* <Route exact path="/weather" component={Weather} /> */}
+            <Route exact path="/weather" component={Weather} />
             <Route exact path="/employees" component={EmployeeList} />
             <Route exact path="/employees/create" component={EmployeeCreate} />
             <BlogContext.Provider value={posts}>

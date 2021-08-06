@@ -34,12 +34,13 @@ export default function Weather({
     if (fetchData) {
       getWeather();
     }
-  }, []);
+  });
   const useNavigation = async () => {
     try {
       navigator.geolocation.getCurrentPosition((position) => {
         let { longitude, latitude } = position.coords;
         setLocation({ lat: latitude, lon: longitude });
+        console.log(location)
         setFetchData(true);
       });
     } catch (err) {
