@@ -1,33 +1,34 @@
+"use strict";
 import { Router } from "express";
 import {
-  createAddress,
-  deleteAddress,
-  getAllAddresses,
-  updateAddress,
-} from "../controllers/addresses.js";
-const addressRouter = Router();
+  createTodo,
+  deleteTodo,
+  getAllTodos,
+  updateTodo,
+} from "../controllers/todo.js";
+const todoRouter = Router();
 /**
  * @route GET api/todo
  * @description get all todo
  * @access public
  */
-addressRouter.get("/", getAllAddresses);
+todoRouter.get("/", getAllTodos);
 /**
  * @route POST api/todo
  * @description add a new todo
  * @access public
  */
-addressRouter.post("/", createAddress);
+todoRouter.post("/", createTodo);
 /**
  * @route PUT api/todo/:id
  * @description update todo
  * @access public
  */
-addressRouter.put("/:id", updateAddress);
+todoRouter.put("/:id", updateTodo);
 /**
  * @route DELETE api/todo/:id
  * @description delete todo
  * @access public
  */
-addressRouter.delete("/:id", deleteAddress);
-export default addressRouter;
+todoRouter.delete("/:id", deleteTodo);
+export default todoRouter;

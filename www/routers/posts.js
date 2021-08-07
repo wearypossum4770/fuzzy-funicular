@@ -1,22 +1,33 @@
 import { Router } from "express";
-import { BlogPost } from "../models/post.model.js";
+import {
+  createPost,
+  deletePost,
+  getAllPost,
+  updatePost,
+} from "../controllers/posts.js";
 const blogPostRouter = Router();
-blogPostRouter.route("/").get((req, res) => {
-  BlogPost.find({})
-    .then((blogPosts) => res.json(blogPosts))
-    .catch((err) => res.status(400).json(`ERROR:${err}`));
-});
-blogPostRouter.route("/add").post((req, res) => {
-  const { username, author, title, content, date_posted } = req.body;
-  const newBlogPost = new BlogPost({
-    title: title,
-    content: content,
-    date_posted: date_posted,
-    // author:author??username ,
-  });
-  newBlogPost
-    .save()
-    .then(() => res.json(`${newBlogPostname} Added`))
-    .catch((err) => res.status(400).json(`Error: ${err}`));
-});
+/**
+ * @route GET api/todo
+ * @description get all todo
+ * @access public
+ */
+blogPostRouter.get("/", getAllPost);
+/**
+ * @route POST api/todo
+ * @description add a new todo
+ * @access public
+ */
+blogPostRouter.post("/", createPost);
+/**
+ * @route PUT api/todo/:id
+ * @description update todo
+ * @access public
+ */
+blogPostRouter.put("/:id", updatePost);
+/**
+ * @route DELETE api/todo/:id
+ * @description delete todo
+ * @access public
+ */
+blogPostRouter.delete("/:id", deletePost);
 export default blogPostRouter;

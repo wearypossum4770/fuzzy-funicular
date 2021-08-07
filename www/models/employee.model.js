@@ -1,37 +1,53 @@
 import mongoose from "mongoose";
+import { userSchema } from "./user.model.js";
 const Schema = mongoose.Schema;
-const ObjectId = mongoose.Types.ObjectId;
+const ObjectId = Schema.ObjectId;
 const employeeSchema = new Schema(
   {
-    payType: { type: String, default: "", adminSearchField: true },
-    clockID: {
-      type: Number,
-      unique: true,
+    user: userSchema,
+    dateOfBirth: {
+      type: String,
       default: "",
       adminSearchField: true,
     },
-    regularRate: {
-      type: Number,
+    gender: {
+      type: String,
       default: "",
       adminSearchField: true,
-      default: 1.0,
     },
-    user: { type: String, default: "", adminSearchField: true },
-    syncToken: { type: String, default: "", adminSearchField: true },
-    dateOfBirth: { type: Date, adminSearchField: true },
-    gender: { type: String, default: "", adminSearchField: true },
     phoneNumber: {
       trim: true,
       type: String,
       default: "",
       adminSearchField: true,
     },
-    startDate: { type: Date, default: "", adminSearchField: true },
-    payrollCalendarID: { type: String, default: "", adminSearchField: true },
-    updatedDateUTC: { type: Date, default: Date.now, adminSearchField: true },
-    createdDateUTC: { type: Date, default: new Date(), adminSearchField: true },
-    endDate: { type: Date, default: "", adminSearchField: true },
-    onBoarding: {
+    startDate: {
+      type: String,
+      default: "",
+      adminSearchField: true,
+    },
+
+    payrollCalendarID: {
+      type: String,
+      default: "",
+      adminSearchField: true,
+    },
+    updatedDateUTC: {
+      type: String,
+      default: "",
+      adminSearchField: true,
+    },
+    createdDateUTC: {
+      type: String,
+      default: "",
+      adminSearchField: true,
+    },
+    endDate: {
+      type: String,
+      default: "",
+      adminSearchField: true,
+    },
+    onboarding: {
       signupDate: { type: Date, admin: false },
       hasLoggedIn: { type: Boolean, default: false },
     },

@@ -7,10 +7,12 @@ const Comment = new Schema({
   date: { type: Date, default: Date.now },
   buff: Buffer,
 });
+
 // a setter
 Comment.path("name").set(function (v) {
   return capitalize(v);
 });
+
 // middleware
 Comment.pre("save", function (next) {
   notify(this.get("email"));

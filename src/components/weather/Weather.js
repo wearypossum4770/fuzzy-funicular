@@ -40,7 +40,7 @@ export default function Weather({
       navigator.geolocation.getCurrentPosition((position) => {
         let { longitude, latitude } = position.coords;
         setLocation({ lat: latitude, lon: longitude });
-        console.log(location)
+        console.log(location);
         setFetchData(true);
       });
     } catch (err) {

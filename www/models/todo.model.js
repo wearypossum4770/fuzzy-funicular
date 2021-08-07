@@ -1,7 +1,7 @@
 "use strict";
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
+// const ObjectId = Schema.ObjectId;
 const todoSchema = new Schema(
   {
     scheduledTime: { type: Date },
@@ -13,4 +13,5 @@ const todoSchema = new Schema(
   },
   { timestamps: true }
 );
-export const User = mongoose.model("User", todoSchema);
+
+export const Todo = mongoose.model("Todo", todoSchema);

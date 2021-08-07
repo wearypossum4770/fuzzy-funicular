@@ -18,4 +18,5 @@ const timeEntrySchema = new Schema(
   },
   { timestamps: true }
 );
+
 export const TimeEntry = mongoose.model("TimeEntry", timeEntrySchema);

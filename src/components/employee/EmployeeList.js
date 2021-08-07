@@ -14,10 +14,10 @@ export default function EmployeeList() {
     let data = [];
     let table = [];
     if (employeeResponse && usersResponse) {
-      employeeResponse.forEach((emp,index) => {
+      employeeResponse.forEach((emp, index) => {
         let _user = usersResponse.filter((user) => user._id === emp.user).pop();
         if (_user) {
-          data.push({key:index, ...emp, ..._user });
+          data.push({ key: index, ...emp, ..._user });
         }
       });
       setNeedsFetch(false);
