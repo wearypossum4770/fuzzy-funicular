@@ -7,14 +7,15 @@ import express from "express";
 import path from "path";
 import admin from "sriracha";
 import util from "util";
-import database from "./config/db.js";
 import { hideFields, json_url_config, locals } from "./config/extras.js";
 import exerciseRouter from "./routers/exercises.js";
 import blogPostRouter from "./routers/posts.js";
 import userRouter from "./routers/users.js";
+import sqlDatabase from "./sql/sqlDatabase.js";
 const execute = util.promisify(exec);
 let desktop = "sudo service mongodb start";
-let chromebook = "echo 'HEY GIRL, HEY'"; //sudo chown `whoami` /var/lib/mongo && sudo chown `whoami` /var/log/mongodb&& mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log"
+let chromebook =
+  "sudo mkdir /var/lib/mongo && sudo mkdir /var/log/mongodb && sudo chown `whoami` /var/lib/mongo && sudo chown `whoami` /var/log/mongodb && mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log && sudo systemctl start mongod && sudo systemctl daemon-reload && sudo systemctl enable mongod";
 async function subprocess(command) {
   try {
     const { stdout, stderr } = await execute(command);
@@ -33,8 +34,9 @@ if (CURRENT_OPERATING_SYSTEM === "DESKTOP") {
 var staticPath = path.dirname(".") + "/static/";
 const PORT = process.env.PORT || 3003;
 const productionMode = process.env.NODE_ENV === "production";
+// noSqlDatabase();
+sqlDatabase();
 const app = express(locals);
-database();
 app.use(cors());
 app.use(optimus(staticPath));
 app.use(express.static("files"));
@@ -43,10 +45,10 @@ app.use(express.json(json_url_config));
 app.get("/", (req, res) => {
   res.json("Hello World!");
 });
-app.use("/admin", admin({ hideFields: hideFields }));
-app.use("/exercise", exerciseRouter);
-app.use("/users", userRouter);
-app.use("/blog", blogPostRouter);
+app.use("/no/admin", admin({ hideFields: hideFields }));
+app.use("/no/exercise", exerciseRouter);
+app.use("/no/users", userRouter);
+app.use("/no/blog", blogPostRouter);
 const server = app.listen(PORT, () =>
   console.log(`EXPRESS Server is running on port:${PORT}`)
 );

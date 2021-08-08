@@ -72,10 +72,16 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.1.5",
-    "morgan": "^1.10.0",
-    "prettier-plugin-organize-imports": "^2.3.3",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "mariadb": "^2.5.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
     "prettier": "^2.3.2",
-    "enzyme-adapter-react-16": "^1.15.6"
+    "prettier-plugin-organize-imports": "^2.3.3",
+    "sequelize": "^6.6.5",
+    "tedious": "^11.4.0"
   }
 }

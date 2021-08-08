@@ -61,6 +61,7 @@ const deleteUser = async (req, res) => {
     let id = req.params.id;
     let { delete_user_obj } = req.body;
     if (!delete_user_obj) {
+      res.status(403).json({ outgoingMessage: "Configuration missing IYKYK" });
       throw "Operation not allowed from this system!";
     }
     let user = User.findByIdAndRemove(id, req.body);

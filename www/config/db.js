@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-export default async function database() {
+export default async function noSqlDatabase() {
   try {
     const URI =
       process.env.MONGO_URL || "mongodb://127.0.0.1:27017/glowingGuide";
