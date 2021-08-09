@@ -1,4 +1,4 @@
-import { Exercise } from "../models/exercise.model.js";
+import { Exercise } from "../models/exercise.model.mongodb.js";
 const getAllExercises = async (req, res) => {
   try {
     const exerciseList = await Exercise.find();

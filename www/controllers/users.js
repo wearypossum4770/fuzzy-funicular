@@ -1,4 +1,4 @@
-import { User } from "../models/user.model.js";
+import { User } from "../models/user.model.mongodb.js";
 const getAllUsers = async (req, res) => {
   try {
     let userList = (await User.find()) ?? [];

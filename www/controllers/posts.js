@@ -1,5 +1,5 @@
 "use strict";
-import { BlogPost } from "../models/post.model.js";
+import { BlogPost } from "../models/post.model.mongodb.js";
 const getAllPost = async (req, res) => {
   try {
     const blogPostList = await BlogPost.find();

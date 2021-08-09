@@ -1,6 +1,6 @@
 "use strict";
 import mongoose from "mongoose";
-import { addressSchema } from "./address.model.js";
+import { addressSchema } from "./address.model.mongodb.js";
 const Schema = mongoose.Schema;
 export const userSchema = new Schema(
   {
@@ -56,7 +56,6 @@ export const userSchema = new Schema(
       type: String,
       admin: false,
       unique: true,
-
       match: /.+\@.+\..+/,
       index: { unique: true, sparse: true },
     },

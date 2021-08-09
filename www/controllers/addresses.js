@@ -1,4 +1,4 @@
-import { Address } from "../models/address.model.js";
+import { Address } from "../models/address.model.mongodb.js";
 const getAllAddresses = async (req, res) => {
   try {
     const addressList = await Address.find();
