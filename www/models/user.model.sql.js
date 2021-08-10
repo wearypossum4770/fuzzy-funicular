@@ -5,7 +5,7 @@ export const userInit = {
   honorific_prefix: {
     type: STRING,
     allowNull: true,
-  },
+  },  
   title: {
     type: STRING,
     allowNull: true,
