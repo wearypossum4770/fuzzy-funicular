@@ -3,22 +3,23 @@ import { readFileSync } from "fs";
 import { resolve } from "path";
 import Sequelize from "sequelize";
 import { userInit } from "../models/user.model.sql.js";
+export const sequelize = new Sequelize({
+  logging: console.log,
+  dialect: "sqlite",
+  storage: "database.sqlite",
+});
 let testConnection = async (sequelize, isConnected) => {
   try {
     await sequelize.authenticate();
     isConnected = true;
-    console.log("Connection has been established successfully.");
+    return console.log("Connection has been established successfully.");
   } catch (error) {
-    console.error("Unable to connect to the database:", error);
+    return console.error("Unable to connect to the database:", error);
   }
 };
 export async function main() {
   let isConnected = false;
-  const sequelize = new Sequelize({
-    logging: console.log,
-    dialect: "sqlite",
-    storage: "database.sqlite",
-  });
+
 
   testConnection(sequelize, isConnected);
   if (isConnected) {
