@@ -9,12 +9,16 @@ import admin from "sriracha";
 import util from "util";
 import noSqlDatabase from "./config/db.js";
 import { hideFields, json_url_config, locals } from "./config/extras.js";
+import { main } from "./config/sqlDatabase.js";
 import exerciseRouter from "./routers/exercises.js";
 import blogPostRouter from "./routers/posts.js";
+import tutorialRouter from "./routers/tutorials.sql.js";
 import userRouter from "./routers/users.js";
-// import sqlDatabase from "./config/sqlDatabase.js";
 const execute = util.promisify(exec);
 let desktop = "sudo service mongodb start";
+var corsOptions = {
+  origin: "http://localhost:3003",
+};
 let chromebook =
   "sudo mkdir /var/lib/mongo && sudo mkdir /var/log/mongodb && sudo chown `whoami` /var/lib/mongo && sudo chown `whoami` /var/log/mongodb && mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log && sudo systemctl start mongod && sudo systemctl daemon-reload && sudo systemctl enable mongod";
 async function subprocess(command) {
@@ -33,9 +37,9 @@ var staticPath = path.dirname(".") + "/static/";
 const PORT = process.env.PORT || 3003;
 const productionMode = process.env.NODE_ENV === "production";
 noSqlDatabase();
-// sqlDatabase();
+main();
 const app = express(locals);
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(optimus(staticPath));
 app.use(express.static("files"));
 app.use(express.urlencoded(json_url_config));
@@ -46,6 +50,7 @@ app.get("/", (req, res) => {
 app.use("/no/admin", admin({ hideFields: hideFields }));
 app.use("/no/exercise", exerciseRouter);
 app.use("/no/users", userRouter);
+app.use("api/tutorials", tutorialRouter);
 app.use("/no/blog", blogPostRouter);
 const server = app.listen(PORT, () =>
   console.log(`EXPRESS Server is running on port:${PORT}`)

@@ -1,47 +1,37 @@
-import { readFileSync } from "fs";
 // https://stackabuse.com/using-sequelize-orm-with-nodejs-and-express
-import { resolve } from "path";
 import Sequelize from "sequelize";
+import { noteInit } from "../models/note.model.sql.js";
+import { tutorialInit } from "../models/tutorials.models.sql.js";
 import { userInit } from "../models/user.model.sql.js";
-let testConnection = async (sequelize, isConnected) => {
+let isConnected = false;
+const sequelize = new Sequelize({
+  logging: console.log,
+  dialect: "sqlite",
+  storage: "database.sqlite",
+});
+let testConnection = async () => {
   try {
     await sequelize.authenticate();
     isConnected = true;
-    console.log("Connection has been established successfully.");
+    console.log("SQL connection has been established successfully.");
   } catch (error) {
-    console.error("Unable to connect to the database:", error);
+    console.error("SQL Unable to connect to the database:", error);
   }
 };
-export async function main() {
-  let isConnected = false;
-  const sequelize = new Sequelize({
-    logging: console.log,
-    dialect: "sqlite",
-    storage: "database.sqlite",
-  });
-
-  testConnection(sequelize, isConnected);
+export function main() {
+  testConnection();
   if (isConnected) {
-    await sequelize.sync({ force: true });
+    sequelize.sync({ force: true });
     console.log(`Database & tables created!`);
   }
+  console.log(`Is connection establshed:${isConnected}`);
 }
-
-export default function sqlDatabase(sequelize, closeConnection = null) {
+export default function sqlDatabase(closeConnection = null) {
   if (closeConnection) sequelize.close();
-
-  let __dirname = resolve("./");
-  let userinit = JSON.parse(readFileSync(`${__dirname}/src/data/dummy.json`));
-  let userList = [];
-  try {
-    const Users = sequelize.define("Users", userInit);
-
-    await Users.bulkCreate(userList);
-    let users = await Users.findAll();
-    userList.push(users);
-  } catch (err) {
-    console.log("ERROR OCCURED\n\n");
-  }
+  const Tutorial = sequelize.define("Tutorials", tutorialInit),
+    Users = sequelize.define("Users", userInit),
+    Note = sequelize.define("Notes", noteInit);
+  return { Tutorial: Tutorial, Users: Users, Note: Note };
 }
 
 // const Note = sequelize.define('notes', { note: Sequelize.TEXT, tag: Sequelize.STRING });
