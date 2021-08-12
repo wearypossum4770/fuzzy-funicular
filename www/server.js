@@ -6,6 +6,7 @@ import "dotenv/config";
 import express from "express";
 import path from "path";
 import admin from "sriracha";
+import subdomain from 'express-subdomain'
 import util from "util";
 import noSqlDatabase from "./config/db.js";
 import { hideFields, json_url_config, locals } from "./config/extras.js";
@@ -47,11 +48,11 @@ app.use(express.json(json_url_config));
 app.get("/", (req, res) => {
   res.json("Hello World!");
 });
-app.use("/no/admin", admin({ hideFields: hideFields }));
-app.use("/no/exercise", exerciseRouter);
-app.use("/no/users", userRouter);
-app.use("api/tutorials", tutorialRouter);
-app.use("/no/blog", blogPostRouter);
+app.use(subdomain("admin", admin({ hideFields: hideFields })));
+app.use("/exercise", exerciseRouter);
+app.use("/users", userRouter);
+app.use("/api/tutorials", tutorialRouter);
+app.use("/blog", blogPostRouter);
 const server = app.listen(PORT, () =>
   console.log(`EXPRESS Server is running on port:${PORT}`)
 );

@@ -9,6 +9,7 @@ export default function useFetchData(performFetch, url, data) {
       credentials: "same-origin", // include, *same-origin, omit
       redirect: "follow", // manual, *follow, error
       referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+      headers: { 'Content-Type': 'application/json;charset=utf-8' },
       method: "POST",
       processData: false,
       body: JSON.stringify(data),
