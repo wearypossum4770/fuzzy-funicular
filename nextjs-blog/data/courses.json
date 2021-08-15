@@ -1,0 +1,4802 @@
+[
+  {
+    "courseCode": "ACC105",
+    "courseName": "Payroll, Sales and Property Taxes",
+    "courseID": "ACC105",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC111",
+    "courseName": "Accounting Principles I",
+    "courseID": "ACC111",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC112",
+    "courseName": "Accounting Principles II",
+    "courseID": "ACC112",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC115",
+    "courseName": "Computerized Accounting",
+    "courseID": "ACC115",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC121",
+    "courseName": "Income Tax Preparation",
+    "courseID": "ACC121",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC211",
+    "courseName": "Financial Accounting",
+    "courseID": "ACC211",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC212",
+    "courseName": "Managerial Accounting",
+    "courseID": "ACC212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC215",
+    "courseName": "Governmental and Not-For-Profit Accounting",
+    "courseID": "ACC215",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC216",
+    "courseName": "Fraud Examination",
+    "courseID": "ACC216",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC219",
+    "courseName": "Intermediate Accounting I",
+    "courseID": "ACC219",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC221",
+    "courseName": "Tax Accounting",
+    "courseID": "ACC221",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ACC224",
+    "courseName": "Tax Practice Administration and Business Entity Analysis",
+    "courseID": "ACC224",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AHU245",
+    "courseName": "Arabic Culture and Islam",
+    "courseID": "AHU245",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS100",
+    "courseName": "Police Academy Preparation",
+    "courseID": "AJS100",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS101",
+    "courseName": "Introduction to Criminal Justice",
+    "courseID": "AJS101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS107",
+    "courseName": "Patrol Procedures",
+    "courseID": "AJS107",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS109",
+    "courseName": "Substantive Criminal Law",
+    "courseID": "AJS109",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS110",
+    "courseName": "Law And Legal Review I",
+    "courseID": "AJS110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS113",
+    "courseName": "Criminal Justice Crime Control Policies and Practices",
+    "courseID": "AJS113",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS123",
+    "courseName": "Ethics and the Administration of Justice",
+    "courseID": "AJS123",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS139",
+    "courseName": "Emergency Response to Terrorism",
+    "courseID": "AJS139",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS147",
+    "courseName": "Emergency Preparedness",
+    "courseID": "AJS147",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS148",
+    "courseName": "Fundamentals of Emergency Management",
+    "courseID": "AJS148",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS149",
+    "courseName": "Hazard Mitigation",
+    "courseID": "AJS149",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS162",
+    "courseName": "Domestic Violence",
+    "courseID": "AJS162",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS192",
+    "courseName": "Serial Killers And Mass Murderers",
+    "courseID": "AJS192",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS195",
+    "courseName": "International And Domestic Terrorism",
+    "courseID": "AJS195",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS200",
+    "courseName": "Current Issues In Criminal Justice",
+    "courseID": "AJS200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS201",
+    "courseName": "Rules of Evidence",
+    "courseID": "AJS201",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS205",
+    "courseName": "Effective Communication and Report Writing in Criminal Justice",
+    "courseID": "AJS205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS210",
+    "courseName": "Constitutional Law",
+    "courseID": "AJS210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS212",
+    "courseName": "Juvenile Justice Procedures",
+    "courseID": "AJS212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS225",
+    "courseName": "Criminology",
+    "courseID": "AJS225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS230",
+    "courseName": "The Police Function",
+    "courseID": "AJS230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseID": "BPC171",
+    "courseCode": "BPC171",
+    "courseName": "Recycling Used Computer Technology",
+    "numberOfCredits": 1
+  },
+  {
+    "courseID": "CIS290AA",
+    "courseCode": "CIS290AA",
+    "courseName": "Computer Information Systems Internship",
+    "numberOfCredits": 1
+  },
+  {
+    "courseID": "CIS290AB",
+    "courseCode": "CIS290AB",
+    "courseName": "Computer Information Systems Internship",
+    "numberOfCredits": 2
+  },
+  {
+    "courseID": "CIS290AC",
+    "courseCode": "CIS290AC",
+    "courseName": "Computer Information Systems Internship",
+    "numberOfCredits": 3
+  },
+  {
+    "courseID": "CIS296WB",
+    "courseCode": "CIS296WB",
+    "courseName": "Cooperative Education",
+    "numberOfCredits": 2
+  },
+  {
+    "courseID": "CIS296WC",
+    "courseCode": "CIS296WC",
+    "courseName": "Cooperative Education",
+    "numberOfCredits": 3
+  },
+  {
+    "courseID": "CIS298AA",
+    "courseCode": "CIS298AA",
+    "courseName": "Special Projects",
+    "numberOfCredits": 1
+  },
+  {
+    "courseID": "CIS298AB",
+    "courseCode": "CIS298AB",
+    "courseName": "Special Projects",
+    "numberOfCredits": 2
+  },
+  {
+    "courseID": "CIS298AC",
+    "courseCode": "CIS298AC",
+    "courseName": "Special Projects",
+    "numberOfCredits": 3
+  },
+  {
+    "courseCode": "AJS240",
+    "courseName": "The Correction Function",
+    "courseID": "AJS240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS255",
+    "courseName": "Crime, Law, and Mental Health",
+    "courseID": "AJS255",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS258",
+    "courseName": "Victimology and Crisis Management",
+    "courseID": "AJS258",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS260",
+    "courseName": "Procedural Criminal Law",
+    "courseID": "AJS260",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS270",
+    "courseName": "Community Relations",
+    "courseID": "AJS270",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AJS275",
+    "courseName": "Criminal Investigation I",
+    "courseID": "AJS275",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ALT100",
+    "courseName": "Academic Literacy Through Integrated Reading and Writing",
+    "courseID": "ALT100",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARB101",
+    "courseName": "Elementary Arabic I",
+    "courseID": "ARB101",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARB102",
+    "courseName": "Elementary Arabic II",
+    "courseID": "ARB102",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARB201",
+    "courseName": "Intermediate Arabic I",
+    "courseID": "ARB201",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARB202",
+    "courseName": "Intermediate Arabic II",
+    "courseID": "ARB202",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARH100",
+    "courseName": "Introduction to Art",
+    "courseID": "ARH100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARH101",
+    "courseName": "Prehistoric Through Gothic Art",
+    "courseID": "ARH101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ARH102",
+    "courseName": "Renaissance Through Contemporary Art",
+    "courseID": "ARH102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ART100",
+    "courseName": "Introduction to Digital Arts",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "ART100"
+  },
+  {
+    "courseCode": "ART112",
+    "courseName": "Two-Dimensional Design",
+    "courseID": "ART112",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ART113",
+    "courseName": "Color",
+    "courseID": "ART113",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ART181",
+    "courseName": "Graphic Design I",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "ART181"
+  },
+  {
+    "courseCode": "ART183",
+    "courseName": "Digital Graphic Arts I",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "ART183"
+  },
+  {
+    "courseCode": "ASB100",
+    "courseName": "Introduction to Global Health",
+    "courseID": "ASB100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASB102",
+    "courseName": "Introduction to Cultural Anthropology",
+    "courseID": "ASB102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASB202",
+    "courseName": "Ethnic Relations in the United States",
+    "courseID": "ASB202",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASB222",
+    "courseName": "Buried Cities and Lost Tribes: Old World",
+    "courseID": "ASB222",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASB245",
+    "courseName": "Indians of the Southwest",
+    "courseID": "ASB245",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD100",
+    "courseName": "Foundations of Addictions and Substance Use Disorders",
+    "courseID": "ASD100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD102",
+    "courseName": "Communication Skills in Treating Addiction",
+    "courseID": "ASD102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD110",
+    "courseName": "Pharmacology of Substances of Abuse and Dependency",
+    "courseID": "ASD110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD120",
+    "courseName": "Professional Ethics in Addictions and Substance Use Disorders",
+    "courseID": "ASD120",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD145",
+    "courseName": "AIDS and Addiction",
+    "courseID": "ASD145",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD146",
+    "courseName": "Peer Support Specialist",
+    "courseID": "ASD146",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD147",
+    "courseName": "Peer Support Specialist Practicum",
+    "courseID": "ASD147",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD148",
+    "courseName": "Introduction to the Science of Prevention",
+    "courseID": "ASD148",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD149",
+    "courseName": "Physiology and Pharmacology for Prevention",
+    "courseID": "ASD149",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD150",
+    "courseName": "Principles of Self-Help Groups",
+    "courseID": "ASD150",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD151",
+    "courseName": "Prevention Interventions and Policies",
+    "courseID": "ASD151",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD152",
+    "courseName": "Family-Based Prevention Interventions",
+    "courseID": "ASD152",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD153",
+    "courseName": "School-Based Prevention Interventions",
+    "courseID": "ASD153",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD154",
+    "courseName": "Workplace-Based Prevention Interventions",
+    "courseID": "ASD154",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD155",
+    "courseName": "Environment-Based Prevention Interventions",
+    "courseID": "ASD155",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD156",
+    "courseName": "Media-Based Prevention Interventions",
+    "courseID": "ASD156",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD157",
+    "courseName": "Community-Based Prevention Implementation Systems",
+    "courseID": "ASD157",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD158",
+    "courseName": "Gambling Disorders Prevention",
+    "courseID": "ASD158",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD159",
+    "courseName": "Adolescent Substance Use Prevention",
+    "courseID": "ASD159",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD160",
+    "courseName": "Behavioral Addictions Prevention",
+    "courseID": "ASD160",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD161",
+    "courseName": "Beginning Clinical Documentation Skills",
+    "courseID": "ASD161",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD165",
+    "courseName": "Theories and Techniques in the Treatment of Addictions",
+    "courseID": "ASD165",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD220",
+    "courseName": "Family Dynamics and Addiction",
+    "courseID": "ASD220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD226",
+    "courseName": "Counseling Multicultural and Diverse Populations",
+    "courseID": "ASD226",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD236",
+    "courseName": "Relapse, Recovery, and Addiction",
+    "courseID": "ASD236",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD245",
+    "courseName": "Co-Occurring Disorders",
+    "courseID": "ASD245",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD250",
+    "courseName": "Group Interventions",
+    "courseID": "ASD250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD275",
+    "courseName": "Advanced Theory and Techniques in the Treatment of Addiction Disorders",
+    "courseID": "ASD275",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285AA",
+    "courseName": "Treatment for Stimulant Use Disorders Seminar",
+    "courseID": "ASD285AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285BB",
+    "courseName": "Adolescent Substance Abuse Treatment Seminar",
+    "courseID": "ASD285BB",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285CC",
+    "courseName": "Addiction Review Seminar",
+    "courseID": "ASD285CC",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285DD",
+    "courseName": "Motivation For Change In Substance Abuse Treatment Seminar",
+    "courseID": "ASD285DD",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285EE",
+    "courseName": "Domestic Violence And Substance Abuse Seminar",
+    "courseID": "ASD285EE",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285FF",
+    "courseName": "Street Drugs Seminar",
+    "courseID": "ASD285FF",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285GG",
+    "courseName": "Addictive and Medical Plants Seminar",
+    "courseID": "ASD285GG",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285HH",
+    "courseName": "Intervention and Treatment for Addictions and Substance Use Disorders Seminar",
+    "courseID": "ASD285HH",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285II",
+    "courseName": "Multicultural Aspects",
+    "courseID": "ASD285II",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285JJ",
+    "courseName": "Clinical Supervision Training Of Supervisors",
+    "courseID": "ASD285JJ",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285LL",
+    "courseName": "Gambling Addiction Seminar",
+    "courseID": "ASD285LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285SS",
+    "courseName": "Marijuana Addiction Seminar",
+    "courseID": "ASD285SS",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD285TT",
+    "courseName": "Opioid Addiction Seminar",
+    "courseID": "ASD285TT",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASD295",
+    "courseName": "Advanced Foundations: Addictions and Substance Use Disorders Counselor Licensing/Certification Exams",
+    "courseID": "ASD295",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASL101",
+    "courseName": "American Sign Language I",
+    "courseID": "ASL101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASL102",
+    "courseName": "American Sign Language II",
+    "courseID": "ASL102",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASL201",
+    "courseName": "American Sign Language III",
+    "courseID": "ASL201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ASL202",
+    "courseName": "American Sign Language IV",
+    "courseID": "ASL202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AST101",
+    "courseName": "Survey of Astronomy",
+    "courseID": "AST101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "AST102",
+    "courseName": "Survey of Astronomy Laboratory",
+    "courseID": "AST102",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BHS205",
+    "courseName": "Therapeutic Models and Interventions in Individual Therapy",
+    "courseID": "BHS205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO100",
+    "courseName": "Biology Concepts",
+    "courseID": "BIO100",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO105",
+    "courseName": "Environmental Biology",
+    "courseID": "BIO105",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO145",
+    "courseName": "Marine Biology",
+    "courseID": "BIO145",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO156",
+    "courseName": "Introductory Biology for Allied Health",
+    "courseID": "BIO156",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO160",
+    "courseName": "Introduction to Human Anatomy and Physiology",
+    "courseID": "BIO160",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO201",
+    "courseName": "Human Anatomy and Physiology I",
+    "courseID": "BIO201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO202",
+    "courseName": "Human Anatomy and Physiology II",
+    "courseID": "BIO202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BIO205",
+    "courseName": "Microbiology",
+    "courseID": "BIO205",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BPC110",
+    "courseName": "Computer Usage and Applications",
+    "courseID": "BPC110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BPC170",
+    "courseName": "A+ Exam Prep: Computer Hardware Configuration and Support",
+    "courseID": "BPC170",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BPC171",
+    "courseName": "Recycling Used Computer Technology",
+    "courseID": "BPC171",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "BPC270",
+    "courseName": "A+ Exam Prep: Operating System Configuration and Support",
+    "courseID": "BPC270",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS112",
+    "courseName": "Personal Growth and Family Relations",
+    "courseID": "CFS112",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS123",
+    "courseName": "Health and Nutrition in Early Childhood Settings",
+    "courseID": "CFS123",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS125",
+    "courseName": "Safety In Early Childhood Settings",
+    "courseID": "CFS125",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS157",
+    "courseName": "Marriage and Family Life",
+    "courseID": "CFS157",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS159",
+    "courseName": "The Modern Family",
+    "courseID": "CFS159",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS176",
+    "courseName": "Child Development",
+    "courseID": "CFS176",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS177",
+    "courseName": "Parent-Child Interaction",
+    "courseID": "CFS177",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS190",
+    "courseName": "Home-Based Visitation",
+    "courseID": "CFS190",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS205",
+    "courseName": "Human Development",
+    "courseID": "CFS205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS206",
+    "courseName": "Child And Family Organizations: Management And Administration",
+    "courseID": "CFS206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS207",
+    "courseName": "Organization And Community Leadership In Child And Family Organizations",
+    "courseID": "CFS207",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS208",
+    "courseName": "Child And Family Organizations: Fiscal Management And Grant Writing",
+    "courseID": "CFS208",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS209",
+    "courseName": "Child And Family Organizations: Project Management",
+    "courseID": "CFS209",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS210",
+    "courseName": "Family Life Education",
+    "courseID": "CFS210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS220",
+    "courseName": "Introduction To Parenting And Family Development",
+    "courseID": "CFS220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS225",
+    "courseName": "Foundations of Parent Education",
+    "courseID": "CFS225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS235",
+    "courseName": "Developing Child: Theory into Practice, Prenatal to Age Eight",
+    "courseID": "CFS235",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS240",
+    "courseName": "Human Behavior In Context",
+    "courseID": "CFS240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS243",
+    "courseName": "Cross-Cultural Parenting",
+    "courseID": "CFS243",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS250",
+    "courseName": "Social Policy and Families",
+    "courseID": "CFS250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS258",
+    "courseName": "Families In Society",
+    "courseID": "CFS258",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CFS259",
+    "courseName": "Sexuality over the Life Span",
+    "courseID": "CFS259",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHI101",
+    "courseName": "Elementary Chinese (Mandarin) I",
+    "courseID": "CHI101",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHI102",
+    "courseName": "Elementary Chinese (Mandarin) II",
+    "courseID": "CHI102",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHI201",
+    "courseName": "Intermediate Chinese I",
+    "courseID": "CHI201",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHI202",
+    "courseName": "Intermediate Chinese II",
+    "courseID": "CHI202",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM107",
+    "courseName": "Chemistry and Society",
+    "courseID": "CHM107",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM107LL",
+    "courseName": "Chemistry and Society Laboratory",
+    "courseID": "CHM107LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM130",
+    "courseName": "Fundamental Chemistry",
+    "courseID": "CHM130",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM130LL",
+    "courseName": "Fundamental Chemistry Laboratory",
+    "courseID": "CHM130LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM138",
+    "courseName": "Chemistry for Allied Health",
+    "courseID": "CHM138",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM138LL",
+    "courseName": "Chemistry for Allied Health Laboratory",
+    "courseID": "CHM138LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM151",
+    "courseName": "General Chemistry I",
+    "courseID": "CHM151",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM151LL",
+    "courseName": "General Chemistry I Laboratory",
+    "courseID": "CHM151LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM152",
+    "courseName": "General Chemistry II",
+    "courseID": "CHM152",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CHM152LL",
+    "courseName": "General Chemistry II Laboratory",
+    "courseID": "CHM152LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS102DA",
+    "courseName": "Customer User Support",
+    "courseID": "CIS102DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS105",
+    "courseName": "Survey of Computer Information Systems",
+    "courseID": "CIS105",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS111",
+    "courseName": "Ethics in Information Technology",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS111"
+  },
+  {
+    "courseCode": "CIS113DE",
+    "courseName": "Microsoft Word: Word Processing",
+    "courseID": "CIS113DE",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS114DE",
+    "courseName": "Excel Spreadsheet",
+    "courseID": "CIS114DE",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS117DM",
+    "courseName": "Microsoft Access: Database Management",
+    "courseID": "CIS117DM",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS118DB",
+    "courseName": "Desktop Presentation: PowerPoint",
+    "courseID": "CIS118DB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS120DA",
+    "courseName": "Introduction to Adobe Premiere",
+    "courseID": "CIS120DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS120DB",
+    "courseName": "Introduction to Adobe Illustrator",
+    "courseID": "CIS120DB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS120DC",
+    "courseName": "Introduction to Adobe Animate",
+    "courseID": "CIS120DC",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS120DF",
+    "courseName": "Introduction to Adobe Photoshop",
+    "courseID": "CIS120DF",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS120DK",
+    "courseName": "Introduction to Digital Video Editing",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS120DK"
+  },
+  {
+    "courseCode": "CIS121AE",
+    "courseName": "Windows Operating System: Level I",
+    "courseID": "CIS121AE",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS122AE",
+    "courseName": "Windows Operating System: Level II",
+    "courseID": "CIS122AE",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS124AA",
+    "courseName": "Project Management Software: Level I",
+    "courseID": "CIS124AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS124BA",
+    "courseName": "Project Management Software: Level II",
+    "courseID": "CIS124BA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS126DA ",
+    "courseName": "UNIX Operating System",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS126DA "
+  },
+  {
+    "courseCode": "CIS126DL",
+    "courseName": "Linux Operating System",
+    "courseID": "CIS126DL",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS133DA",
+    "courseName": "Internet/Web Development Level I",
+    "courseID": "CIS133DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS136",
+    "courseName": "Content Management Systems: WordPress",
+    "courseID": "CIS136",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS138DA",
+    "courseName": "Desktop Design and Publishing Using Adobe InDesign",
+    "courseID": "CIS138DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS143",
+    "courseName": "Introduction to Critical Infrastructure Protection",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS143"
+  },
+  {
+    "courseCode": "CIS150AB",
+    "courseName": "Object-Oriented Programming Fundamentals",
+    "courseID": "CIS150AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS151",
+    "courseName": "Computer Game Development -Level I",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS151"
+  },
+  {
+    "courseCode": "CIS156",
+    "courseName": "Python Programming: Level I",
+    "courseID": "CIS156",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS159",
+    "courseName": "Visual Basic Programming I",
+    "courseID": "CIS159",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS162AD",
+    "courseName": "C#: Level I",
+    "courseID": "CIS162AD",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS163AA",
+    "courseName": "Java Programming: Level I",
+    "courseID": "CIS163AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS165",
+    "courseName": "Introduction to IOS Application Development",
+    "courseID": "CIS165",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS165DA",
+    "courseName": "Introduction to Android Application Development",
+    "courseID": "CIS165DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS165DB",
+    "courseName": "C#/VB.NET: Windows 8 App Development",
+    "courseID": "CIS165DB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS166AA",
+    "courseName": "Introduction to Javascript",
+    "courseID": "CIS166AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS166AE",
+    "courseName": "Web Scripting with PHP: Hypertext Preprocessor (PHP)",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS166AE"
+  },
+  {
+    "courseCode": "CIS190",
+    "courseName": "Introduction to Networking",
+    "courseID": "CIS190",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS201",
+    "courseName": "Introduction to Operational Technology",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS201"
+  },
+  {
+    "courseCode": "CIS202",
+    "courseName": "Introduction to Smart Grid Security",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS202"
+  },
+  {
+    "courseCode": "CIS203",
+    "courseName": "Principles of the Risk Management Framework",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS203"
+  },
+  {
+    "courseCode": "CIS213DE",
+    "courseName": "Advanced Microsoft Word: Word Processing",
+    "courseID": "CIS213DE",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS214DA",
+    "courseName": "Advanced Excel for Data Analytics",
+    "courseID": "CIS214DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS214DE",
+    "courseName": "Advanced Excel Spreadsheet: Level II",
+    "courseID": "CIS214DE",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS217AM",
+    "courseName": "Advanced Microsoft Access: Database Management",
+    "courseID": "CIS217AM",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS220DF",
+    "courseName": "Adobe Photoshop Level II: Advanced Digital Imaging",
+    "courseID": "CIS220DF",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS224",
+    "courseName": "Project Management Microsoft Project for Windows",
+    "numberOfCredits": null,
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS224"
+  },
+  {
+    "courseCode": "CIS225AB",
+    "courseName": "Object-Oriented Analysis and Design",
+    "courseID": "CIS225AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS227",
+    "courseName": "Assembly Language",
+    "courseID": "CIS227",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS233DA",
+    "courseName": "Internet/Web Development Level II",
+    "courseID": "CIS233DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS235",
+    "courseName": "E-Commerce",
+    "courseID": "CIS235",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS238DL",
+    "courseName": "Linux System Administration",
+    "courseID": "CIS238DL",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS250",
+    "courseName": "Management of Information Systems",
+    "courseID": "CIS250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS251",
+    "courseName": "Computer Game Development - Level II",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS251"
+  },
+  {
+    "courseCode": "CIS256",
+    "courseName": "Python Programming: Level II",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS256"
+  },
+  {
+    "courseCode": "CIS259",
+    "courseName": "Visual Basic Programming II",
+    "courseID": "CIS259",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS262AD",
+    "courseName": "C# Level II",
+    "courseID": "CIS262AD",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS263AA",
+    "courseName": "Java Programming: Level II",
+    "courseID": "CIS263AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS265",
+    "courseName": "Advanced iOS Application Development",
+    "courseID": "CIS265",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS270",
+    "courseName": "Essentials of Network and Information Security",
+    "courseID": "CIS270",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS271DB",
+    "courseName": "Information Security Essentials",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS271DB"
+  },
+  {
+    "courseCode": "CIS272DB",
+    "courseName": "Information Security Principles",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS272DB"
+  },
+  {
+    "courseCode": "CIS276DA",
+    "courseName": "MySQL Database",
+    "courseID": "CIS276DA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CIS276DB",
+    "courseName": "SQL Server Database",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CIS276DB"
+  },
+  {
+    "courseCode": "CIS288",
+    "courseName": "Digital Design Portfolio",
+    "courseID": "CIS288",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CNT150AB",
+    "courseName": "Switching, Routing, and Wireless Essentials",
+    "numberOfCredits": "4",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CNT150AB"
+  },
+  {
+    "courseCode": "COM100",
+    "courseName": "Introduction to Human Communication",
+    "courseID": "COM100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "COM110",
+    "courseName": "Interpersonal Communication",
+    "courseID": "COM110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "COM225",
+    "courseName": "Public Speaking",
+    "courseID": "COM225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "COM230",
+    "courseName": "Small Group Communication",
+    "courseID": "COM230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "COM259",
+    "courseName": "Communication in Business and Professions",
+    "courseID": "COM259",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "COM263",
+    "courseName": "Elements of Intercultural Communication",
+    "courseID": "COM263",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10015",
+    "courseName": "Engaging Your Student's Brain in the Classroom",
+    "courseID": "CONT_ED100-10015",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10018",
+    "courseName": "What...an IEP?\r\n\r\nWhat+an IEP?\r\n\r\nWhat+an IEP?",
+    "courseID": "CONT_ED100-10018",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10042",
+    "courseName": "Treatment for Stimulant Use Disorders Seminar",
+    "courseID": "CONT_ED100-10042",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10043",
+    "courseName": "Adolescent Substance Seminar",
+    "courseID": "CONT_ED100-10043",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10044",
+    "courseName": "Addiction Review Seminar",
+    "courseID": "CONT_ED100-10044",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10045",
+    "courseName": "Motivation For Change In Addictions & Substance Use Disorders Seminar",
+    "courseID": "CONT_ED100-10045",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10046",
+    "courseName": "Domestic Violence And Addictions,Substance Use Disorders Seminar",
+    "courseID": "CONT_ED100-10046",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10047",
+    "courseName": "Street Drugs Seminar",
+    "courseID": "CONT_ED100-10047",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10048",
+    "courseName": "Addictive and Medical Plants Seminar",
+    "courseID": "CONT_ED100-10048",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10049",
+    "courseName": "Intervention and Treatment for Substance Use Disorders Seminar",
+    "courseID": "CONT_ED100-10049",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10050",
+    "courseName": "Multicultural Aspects",
+    "courseID": "CONT_ED100-10050",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10051",
+    "courseName": "Clinical Supervision Training Of Supervisors",
+    "courseID": "CONT_ED100-10051",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10052",
+    "courseName": "Adv Foundations: Addictions and Substance Use Disorders Counselor Lic/Cert Exams",
+    "courseID": "CONT_ED100-10052",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10053",
+    "courseName": "Professional Ethics in Addictions and Substance Use Disorders",
+    "courseID": "CONT_ED100-10053",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10054",
+    "courseName": "AIDS and Addiction",
+    "courseID": "CONT_ED100-10054",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10055",
+    "courseName": "Principles of Self-Help Groups",
+    "courseID": "CONT_ED100-10055",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10056",
+    "courseName": "Theories and Techniques in the Treatment of Addictions",
+    "courseID": "CONT_ED100-10056",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10057",
+    "courseName": "Relapse, Recovery, and Addiction",
+    "courseID": "CONT_ED100-10057",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10058",
+    "courseName": "Co-Occurring Disorders",
+    "courseID": "CONT_ED100-10058",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10064",
+    "courseName": "Gambling Addiction Seminar",
+    "courseID": "CONT_ED100-10064",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10065",
+    "courseName": "Confidentiality and Mandatory Reporting",
+    "courseID": "CONT_ED100-10065",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10066",
+    "courseName": "Marijuana Addictions Seminar",
+    "courseID": "CONT_ED100-10066",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-10067",
+    "courseName": "Opioid Addiction Seminar",
+    "courseID": "CONT_ED100-10067",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4003A",
+    "courseName": "ED4003A Instruct. Paradigms in Technology  in Elementary Education",
+    "courseID": "CONT_ED100-4003A",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4003B",
+    "courseName": "ED4003B Instruct. Paradigms in Technology  in Secondary Education",
+    "courseID": "CONT_ED100-4003B",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4003C",
+    "courseName": "ED4003C Instruct. Paradigms in Technology  in Special Education",
+    "courseID": "CONT_ED100-4003C",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4004A",
+    "courseName": "ED4004A Assessment of Student Learning in Elementary Education",
+    "courseID": "CONT_ED100-4004A",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4004B",
+    "courseName": "ED4004B Assessment of Student Learning in Secondary Education",
+    "courseID": "CONT_ED100-4004B",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CONT_ED100-4004C",
+    "courseName": "ED4004C Assessment of Student Learning in Special  Education",
+    "courseID": "CONT_ED100-4004C",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CPD102AB",
+    "courseName": "Career Exploration",
+    "courseID": "CPD102AB",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CPD102AC",
+    "courseName": "Creative Job Hunting",
+    "courseID": "CPD102AC",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CPD115",
+    "courseName": "Creating College Success",
+    "courseID": "CPD115",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CPD150",
+    "courseName": "Strategies for College Success",
+    "courseID": "CPD150",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CPD160",
+    "courseName": "Introduction to Multiculturalism",
+    "courseID": "CPD160",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRE101",
+    "courseName": "College Critical Reading and Critical Thinking",
+    "courseID": "CRE101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW150",
+    "courseName": "Introduction to Creative Writing",
+    "courseID": "CRW150",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW160",
+    "courseName": "Introduction to Writing Poetry",
+    "courseID": "CRW160",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW170",
+    "courseName": "Introduction to Writing Fiction",
+    "courseID": "CRW170",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW180",
+    "courseName": "Introduction to Writing Nonfiction",
+    "courseID": "CRW180",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW190",
+    "courseName": "Introduction to Screenwriting",
+    "courseID": "CRW190",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW200",
+    "courseName": "Readings for Writers",
+    "courseID": "CRW200",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW201",
+    "courseName": "Portfolio",
+    "courseID": "CRW201",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW271",
+    "courseName": "Topics in Writing: Fiction",
+    "courseID": "CRW271",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW272",
+    "courseName": "Planning and Structuring the Novel",
+    "courseID": "CRW272",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW273",
+    "courseName": "Writing the Novel",
+    "courseID": "CRW273",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW274",
+    "courseName": "Revising the Novel",
+    "courseID": "CRW274",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CRW290",
+    "courseName": "Intermediate Screenwriting",
+    "courseID": "CRW290",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CSC110",
+    "courseName": "Introduction to Computer Science (Java)",
+    "courseID": "CSC110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CSC205",
+    "courseName": "Object Oriented Programming and Data Structures",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CSC205"
+  },
+  {
+    "courseCode": "CTE200",
+    "courseName": "Career and Technical Education: Principles, Philosophy and Student Organizations",
+    "courseID": "CTE200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CTE210",
+    "courseName": "Career and Technical Education: Teaching Methods and Curriculum Development",
+    "courseID": "CTE210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CTE220",
+    "courseName": "Career and Technical Education: Classroom Management and Lab Safety",
+    "courseID": "CTE220",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-CRP",
+    "courseName": "Coronal Polishing for the Dental Team",
+    "courseID": "DENTAL100-CRP",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-CRPTR",
+    "courseName": "Coronal Polishing Training for the Dental Team",
+    "courseID": "DENTAL100-CRPTR",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-DHCO",
+    "courseName": "DH Clinical Observation",
+    "courseID": "DENTAL100-DHCO",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-FLUOR",
+    "courseName": "Fluoride Update",
+    "courseID": "DENTAL100-FLUOR",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-INTRO",
+    "courseName": "Introduction to Dentistry Course",
+    "courseID": "DENTAL100-INTRO",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-ITRDH",
+    "courseName": "Interim Therapeutic Restorations for the Dental Hygienist",
+    "courseID": "DENTAL100-ITRDH",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "DENTAL100-ITRTR",
+    "courseName": "Interim Therapeutic Restorations Training for the Dental Hygienist",
+    "courseID": "DENTAL100-ITRTR",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECE102",
+    "courseName": "Engineering Analysis Tools and Techniques",
+    "courseID": "ECE102",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECE103",
+    "courseName": "Engineering Problem Solving and Design",
+    "courseID": "ECE103",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECE105",
+    "courseName": "MATLAB Programming",
+    "courseID": "ECE105",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECE216",
+    "courseName": "Computer-Aided Engineering",
+    "courseID": "ECE216",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECE216LL",
+    "courseName": "Computer-Aided Engineering Laboratory",
+    "courseID": "ECE216LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH128",
+    "courseName": "Early Learning: Play And The Arts",
+    "courseID": "ECH128",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH269",
+    "courseName": "Child Care Seminar",
+    "courseID": "ECH269",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH270",
+    "courseName": "Observing Young Children",
+    "courseID": "ECH270",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH271",
+    "courseName": "Arranging the Environment",
+    "courseID": "ECH271",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH272",
+    "courseName": "Science For The Young Child",
+    "courseID": "ECH272",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH273",
+    "courseName": "Math for the Young Child",
+    "courseID": "ECH273",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH280",
+    "courseName": "Food Experiences With Young Children",
+    "courseID": "ECH280",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH282",
+    "courseName": "Discipline/Guidance Of Child Groups",
+    "courseID": "ECH282",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECH287",
+    "courseName": "Professional Development in Early Childhood Education",
+    "courseID": "ECH287",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECN211",
+    "courseName": "Macroeconomic Principles",
+    "courseID": "ECN211",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ECN212",
+    "courseName": "Microeconomic Principles",
+    "courseID": "ECN212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDO100-101PB",
+    "courseName": "Education Preparation Program Orientation:  An Introduction to the Post Bacc education program.",
+    "courseID": "EDO100-101PB",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDO100-101TR",
+    "courseName": "Teacher in Residence Orientation:  An Introduction to the Teacher in Residence program.",
+    "courseID": "EDO100-101TR",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDO100-102",
+    "courseName": "Student Teaching Orientation:  An Introduction to Student Teaching",
+    "courseID": "EDO100-102",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU204",
+    "courseName": "Fine Arts In Educational Settings",
+    "courseID": "EDU204",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU221",
+    "courseName": "Introduction to Education",
+    "courseID": "EDU221",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU222",
+    "courseName": "Introduction to the Exceptional Learner",
+    "courseID": "EDU222",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU223AA",
+    "courseName": "Emotional Disabilities in the Classroom",
+    "courseID": "EDU223AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU223AB",
+    "courseName": "Learning Disabilities in the Classroom",
+    "courseID": "EDU223AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU223AC",
+    "courseName": "Mild and Moderate Intellectual Disability in the Classroom",
+    "courseID": "EDU223AC",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU223AD",
+    "courseName": "Physical and Other Health Impairments in the Classroom",
+    "courseID": "EDU223AD",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU223AF",
+    "courseName": "Assessment and Eligibility in Special Education",
+    "courseID": "EDU223AF",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU230",
+    "courseName": "Cultural Diversity In Education",
+    "courseID": "EDU230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU235",
+    "courseName": "The Exceptional Learner",
+    "courseID": "EDU235",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU239",
+    "courseName": "Structured English Immersion Grades K-8",
+    "courseID": "EDU239",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU240",
+    "courseName": "Structured English Immersion Grades 6-12",
+    "courseID": "EDU240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU242",
+    "courseName": "Language Development and Disorders",
+    "courseID": "EDU242",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU244",
+    "courseName": "Special Education Collaboration and Communication Practices",
+    "courseID": "EDU244",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU250",
+    "courseName": "Teaching and Learning in the Community College",
+    "courseID": "EDU250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU260AA",
+    "courseName": "Art Methods and Curriculum Development for Elementary",
+    "courseID": "EDU260AA",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU260AB",
+    "courseName": "Art Methods and Curriculum Development for Secondary",
+    "courseID": "EDU260AB",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU261AA",
+    "courseName": "Dance Methods and Curriculum Development for Elementary",
+    "courseID": "EDU261AA",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU261AB",
+    "courseName": "Dance Methods and Curriculum Development for Secondary",
+    "courseID": "EDU261AB",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU262AA",
+    "courseName": "Dramatic Arts Methods and Curriculum Development for Elementary",
+    "courseID": "EDU262AA",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU262AB",
+    "courseName": "Dramatic Arts Methods and Curriculum Development for Secondary",
+    "courseID": "EDU262AB",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU263AA",
+    "courseName": "Music Methods and Curriculum Development for Elementary",
+    "courseID": "EDU263AA",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU263AB",
+    "courseName": "Music Methods and Curriculum Development for Secondary",
+    "courseID": "EDU263AB",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU270",
+    "courseName": "Learning And The Brain",
+    "courseID": "EDU270",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU270AA",
+    "courseName": "Elementary Reading And Decoding",
+    "courseID": "EDU270AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU270AB",
+    "courseName": "Secondary Reading And Decoding",
+    "courseID": "EDU270AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU271",
+    "courseName": "Phonics Based Reading and Decoding",
+    "courseID": "EDU271",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU272",
+    "courseName": "Educational Psychology",
+    "courseID": "EDU272",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU274",
+    "courseName": "Understanding Adolescent Behavior in the Classroom",
+    "courseID": "EDU274",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU276",
+    "courseName": "Classroom Management and Behavior Analysis",
+    "courseID": "EDU276",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU277AA",
+    "courseName": "Elementary Student Teaching",
+    "courseID": "EDU277AA",
+    "numberOfCredits": "8",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU277AB",
+    "courseName": "Secondary Student Teaching",
+    "courseID": "EDU277AB",
+    "numberOfCredits": "8",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU278",
+    "courseName": "Educational Assessment And Evaluation",
+    "courseID": "EDU278",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU287AA",
+    "courseName": "Master Teacher Seminar I",
+    "courseID": "EDU287AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU287AC",
+    "courseName": "Master Teacher Seminar III",
+    "courseID": "EDU287AC",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU288AA",
+    "courseName": "Student Teaching Lab - Elementary",
+    "courseID": "EDU288AA",
+    "numberOfCredits": "8",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU288AB",
+    "courseName": "Student Teaching Lab - Secondary",
+    "courseID": "EDU288AB",
+    "numberOfCredits": "8",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289",
+    "courseName": "Secondary Methods and Curriculum Development",
+    "courseID": "EDU289",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289AA",
+    "courseName": "Secondary Social Studies Methods and Curriculum Development",
+    "courseID": "EDU289AA",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289AB",
+    "courseName": "Secondary Mathematics Methods and Curriculum Development",
+    "courseID": "EDU289AB",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289AC",
+    "courseName": "Secondary Science Methods and Curriculum Development",
+    "courseID": "EDU289AC",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289AD",
+    "courseName": "Secondary English Methods and Curriculum Development",
+    "courseID": "EDU289AD",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU289AE",
+    "courseName": "Secondary Methods and Curriculum Development in Special Topics",
+    "courseID": "EDU289AE",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU290",
+    "courseName": "Science Methods and Curriculum Development",
+    "courseID": "EDU290",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU291",
+    "courseName": "Children's Literature",
+    "courseID": "EDU291",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU293",
+    "courseName": "Mathematics Methods and Curriculum Development",
+    "courseID": "EDU293",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EDU295",
+    "courseName": "Social Studies Methods and Curriculum Development",
+    "courseID": "EDU295",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEC205",
+    "courseName": "Early Learning: Instructional Methodologies of Language, Math, Science, Social Studies and the Arts",
+    "courseID": "EEC205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED200",
+    "courseName": "Foundations of Early Childhood Education",
+    "courseID": "EED200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED205",
+    "courseName": "The Developing Child: Prenatal to Age Eight",
+    "courseID": "EED205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED210",
+    "courseName": "Creative and Cognitive Play",
+    "courseID": "EED210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED212",
+    "courseName": "Guidance, Management and the Environment",
+    "courseID": "EED212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED215",
+    "courseName": "Early Learning: Health, Safety, Nutrition and Fitness",
+    "courseID": "EED215",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED222",
+    "courseName": "Introduction to the Exceptional Young Child: Birth to Age Eight",
+    "courseID": "EED222",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED225",
+    "courseName": "Language and Literacy in the Context of Culture and Relationships",
+    "courseID": "EED225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED255",
+    "courseName": "Portfolio Development and Writing for the Profession",
+    "courseID": "EED255",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED260",
+    "courseName": "Early Childhood Infant/Toddler Internship",
+    "courseID": "EED260",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED261",
+    "courseName": "Early Childhood Preschool Internship",
+    "courseID": "EED261",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED278",
+    "courseName": "Early Learning: Curriculum And Instruction - Birth/Preschool",
+    "courseID": "EED278",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EED280",
+    "courseName": "Standards, Observation and Assessment of Typical/Atypical Behaviors of Young Children Birth to Age 8",
+    "courseID": "EED280",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEE202",
+    "courseName": "Circuits and Devices",
+    "courseID": "EEE202",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP224",
+    "courseName": "Child Development: Prenatal to Age Eight",
+    "courseID": "EEP224",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP240",
+    "courseName": "Early Childhood Foundations",
+    "courseID": "EEP240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP242",
+    "courseName": "Early Childhood Guidance And Management",
+    "courseID": "EEP242",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP244",
+    "courseName": "Early Childhood Introduction To The Exceptional Young Child",
+    "courseID": "EEP244",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP246",
+    "courseName": "Early Childhood Culture, Community, Family And The Child",
+    "courseID": "EEP246",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP250",
+    "courseName": "Early Childhood Language And Literacy Development",
+    "courseID": "EEP250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP260",
+    "courseName": "Early Childhood Curriculum and Methods of Math - Birth to Age Eight",
+    "courseID": "EEP260",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP262",
+    "courseName": "Early Childhood Curriculum and Methods of Science - Birth to Age Eight",
+    "courseID": "EEP262",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP264",
+    "courseName": "Early Childhood Curriculum and Methods of Social Studies - Birth to Age Eight",
+    "courseID": "EEP264",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP266",
+    "courseName": "Early Childhood Curriculum And Methods In Language Arts - Birth To Age Eight",
+    "courseID": "EEP266",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP268",
+    "courseName": "Early Childhood Curriculum And Methods In The Arts - Birth To Age Eight",
+    "courseID": "EEP268",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP276",
+    "courseName": "Standards, Observation and Assessment of Typical and Atypical Behaviors Birth to Age Eight",
+    "courseID": "EEP276",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP288",
+    "courseName": "Student Teaching Lab - Early Childhood",
+    "courseID": "EEP288",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EEP289",
+    "courseName": "Internship: Early Childhood Infant, Toddler, Preschool",
+    "courseID": "EEP289",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EFE262",
+    "courseName": "Student Teaching Lab K-12 - Drama",
+    "courseID": "EFE262",
+    "numberOfCredits": "12",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG100AE",
+    "courseName": "Composition Skills",
+    "courseID": "ENG100AE",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG101",
+    "courseName": "First-Year Composition",
+    "courseID": "ENG101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG102",
+    "courseName": "First-Year Composition",
+    "courseID": "ENG102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG107",
+    "courseName": "First-Year Composition for ESL",
+    "courseID": "ENG107",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG108",
+    "courseName": "First-Year Composition for ESL",
+    "courseID": "ENG108",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG111",
+    "courseName": "Technical and Professional Writing",
+    "courseID": "ENG111",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG200",
+    "courseName": "Reading and Writing About Literature",
+    "courseID": "ENG200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG213",
+    "courseName": "Introduction to the Study of Language",
+    "courseID": "ENG213",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENG235",
+    "courseName": "Magazine Article Writing",
+    "courseID": "ENG235",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH222",
+    "courseName": "Survey Of English Literature After 1800",
+    "courseID": "ENH222",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH230",
+    "courseName": "Introduction to Shakespeare",
+    "courseID": "ENH230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH241",
+    "courseName": "American Literature Before 1860",
+    "courseID": "ENH241",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH251",
+    "courseName": "Mythology",
+    "courseID": "ENH251",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH280",
+    "courseName": "Topics in American Literature",
+    "courseID": "ENH280",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH291",
+    "courseName": "Children's Literature",
+    "courseID": "ENH291",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ENH292",
+    "courseName": "Literature for Adolescents",
+    "courseID": "ENH292",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD205",
+    "courseName": "Science, Technology, Engineering, and Mathematics (STEM) Education",
+    "courseID": "EPD205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD216AA",
+    "courseName": "Elementary Physical Education Methods and Curriculum Development",
+    "courseID": "EPD216AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD216AB",
+    "courseName": "Secondary Physical Education Methods and Curriculum Development",
+    "courseID": "EPD216AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD250",
+    "courseName": "Teaching Elementary Number Sense and Operations Grades K-8",
+    "courseID": "EPD250",
+    "numberOfCredits": "6",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD251",
+    "courseName": "Teaching Geometry and Measurement Grades K-8",
+    "courseID": "EPD251",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD252",
+    "courseName": "Teaching Patterns, Algebra and Functions Grades K-8",
+    "courseID": "EPD252",
+    "numberOfCredits": "6",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD253",
+    "courseName": "Teaching Data Analysis, Probability and Discrete Mathematics Grades K-8",
+    "courseID": "EPD253",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD254",
+    "courseName": "Mathematics Classroom Assessment",
+    "courseID": "EPD254",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD255",
+    "courseName": "Research-Based Practices, Pedagogy, and Instructional Leadership in Mathematics",
+    "courseID": "EPD255",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD256",
+    "courseName": "Science, Technology, Engineering, and Mathematics (STEM) Education and Technology",
+    "courseID": "EPD256",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD257",
+    "courseName": "Science, Technology, Engineering, and Mathematics (STEM) Education and Science",
+    "courseID": "EPD257",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD258",
+    "courseName": "Science, Technology, Engineering, and Mathematics (STEM) Education and Engineering",
+    "courseID": "EPD258",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD259",
+    "courseName": "Science, Technology, Engineering, and Mathematics (STEM) Education and Mathematics",
+    "courseID": "EPD259",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD270",
+    "courseName": "Theoretical and Research Foundations of Language and Literacy",
+    "courseID": "EPD270",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD271AA",
+    "courseName": "Essential Elements of Elementary Reading and Writing Instruction K-8",
+    "courseID": "EPD271AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD271AB",
+    "courseName": "Essential Elements of Adolescent Reading and Writing Instruction 6-12",
+    "courseID": "EPD271AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD272AA",
+    "courseName": "Elements of Elementary Content Area Reading and Writing K-8",
+    "courseID": "EPD272AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD272AB",
+    "courseName": "Elements of Adolescent Content Area Reading and Writing 6-12",
+    "courseID": "EPD272AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD274",
+    "courseName": "Reading Assessment",
+    "courseID": "EPD274",
+    "numberOfCredits": "6",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD276",
+    "courseName": "The Teacher Leader",
+    "courseID": "EPD276",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD277AA",
+    "courseName": "Reading Field Experience K-8",
+    "courseID": "EPD277AA",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD277AB",
+    "courseName": "Reading Field Experience 6-12",
+    "courseID": "EPD277AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPD287",
+    "courseName": "Science, Technology, Engineering, and Mathematics Education (STEM) Education Capstone Project",
+    "courseID": "EPD287",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS150",
+    "courseName": "Introduction to Entrepreneurship",
+    "courseID": "EPS150",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS160",
+    "courseName": "New Venture Creation",
+    "courseID": "EPS160",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS161",
+    "courseName": "New Venture Law and Finance",
+    "courseID": "EPS161",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS165",
+    "courseName": "New Venture Feasibility Analysis",
+    "courseID": "EPS165",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS180",
+    "courseName": "Technology Business Planning",
+    "courseID": "EPS180",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "EPS195",
+    "courseName": "Business Start-Up and Planning",
+    "courseID": "EPS195",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FCS250",
+    "courseName": "Portfolio Development and Professional Writing",
+    "courseID": "FCS250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FCS260",
+    "courseName": "Family And Consumer Science Internship",
+    "courseID": "FCS260",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON100",
+    "courseName": "Introductory Nutrition",
+    "courseID": "FON100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON100LL",
+    "courseName": "Introductory Nutrition Laboratory",
+    "courseID": "FON100LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON104",
+    "courseName": "Certification in Food Service Safety and Sanitation",
+    "courseID": "FON104",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON135",
+    "courseName": "Sustainable Cooking",
+    "courseID": "FON135",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON143",
+    "courseName": "Food and Culture",
+    "courseID": "FON143",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON161",
+    "courseName": "Sustainable Food Production Systems",
+    "courseID": "FON161",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON163",
+    "courseName": "Sustainable Kitchen Practices",
+    "courseID": "FON163",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON165",
+    "courseName": "Food Entrepreneurship",
+    "courseID": "FON165",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON241",
+    "courseName": "Principles of Human Nutrition",
+    "courseID": "FON241",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FON241LL",
+    "courseName": "Principles of Human Nutrition Laboratory",
+    "courseID": "FON241LL",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FOR105",
+    "courseName": "Forensic Science: Physical Evidence",
+    "courseID": "FOR105",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FOR106",
+    "courseName": "Forensic Science: Biological Evidence",
+    "courseID": "FOR106",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FRE101",
+    "courseName": "Elementary French I",
+    "courseID": "FRE101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FRE102",
+    "courseName": "Elementary French II",
+    "courseID": "FRE102",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FRE201",
+    "courseName": "Intermediate French I",
+    "courseID": "FRE201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "FRE202",
+    "courseName": "Intermediate French II",
+    "courseID": "FRE202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS120",
+    "courseName": "Workplace Communication Skills",
+    "courseID": "GBS120",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS131",
+    "courseName": "Business Calculations",
+    "courseID": "GBS131",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS132",
+    "courseName": "Personal and Family Financial Security",
+    "courseID": "GBS132",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS151",
+    "courseName": "Introduction to Business",
+    "courseID": "GBS151",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS175",
+    "courseName": "Professional Development",
+    "courseID": "GBS175",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS205",
+    "courseName": "Legal, Ethical, and Regulatory Issues in Business",
+    "courseID": "GBS205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS211",
+    "courseName": "Legal, Ethical and Regulatory Issues of the Internet Studies",
+    "numberOfCredits": "3",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "GBS211"
+  },
+  {
+    "courseCode": "GBS220",
+    "courseName": "Quantitative Methods in Business",
+    "courseID": "GBS220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS221",
+    "courseName": "Business Statistics",
+    "courseID": "GBS221",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GBS233",
+    "courseName": "Business Communication",
+    "courseID": "GBS233",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GCU121",
+    "courseName": "World Geography I: Eastern Hemisphere",
+    "courseID": "GCU121",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GED800-LANG",
+    "courseName": "GED Language and Social Studies Test Preparation",
+    "courseID": "GED800-LANG",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GED800-MATH",
+    "courseName": "GED Math and Science Test Preparation",
+    "courseID": "GED800-MATH",
+    "numberOfCredits": "0",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GER101",
+    "courseName": "Elementary German I",
+    "courseID": "GER101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GER102",
+    "courseName": "Elementary German II",
+    "courseID": "GER102",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GER201",
+    "courseName": "Intermediate German I",
+    "courseID": "GER201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GER202",
+    "courseName": "Intermediate German II",
+    "courseID": "GER202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GLG101",
+    "courseName": "Introduction to Geology I - Physical Lecture",
+    "courseID": "GLG101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GLG103",
+    "courseName": "Introduction to Geology I - Physical Lab",
+    "courseID": "GLG103",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GLG110",
+    "courseName": "Geological Disasters and the Environment",
+    "courseID": "GLG110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GLG111",
+    "courseName": "Geological Disasters and the Environment Lab",
+    "courseID": "GLG111",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "GPH113",
+    "courseName": "Introduction to Physical Geography",
+    "courseID": "GPH113",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC130",
+    "courseName": "Fundamentals in Health Care Delivery",
+    "courseID": "HCC130",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC145",
+    "courseName": "Medical Terminology for Health Care Professionals",
+    "courseID": "HCC145",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC145AA",
+    "courseName": "Medical Terminology for Health Care Professionals I",
+    "courseID": "HCC145AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC145AB",
+    "courseName": "Medical Terminology for Health Care Professionals II",
+    "courseID": "HCC145AB",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC145AC",
+    "courseName": "Medical Terminology for Health Care Professionals III",
+    "courseID": "HCC145AC",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCC146",
+    "courseName": "Common Medical Terminology for Health Care Professionals",
+    "courseID": "HCC146",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCR210",
+    "courseName": "Clinical Health Care Ethics",
+    "courseID": "HCR210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCR220",
+    "courseName": "Introduction to Nursing and Health Care Systems",
+    "courseID": "HCR220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCR230",
+    "courseName": "Culture And Health",
+    "courseID": "HCR230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HCR240",
+    "courseName": "Human Pathophysiology",
+    "courseID": "HCR240",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HES100",
+    "courseName": "Healthful Living",
+    "courseID": "HES100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HES154",
+    "courseName": "First Aid/Cardiopulmonary Resuscitation",
+    "courseID": "HES154",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS100",
+    "courseName": "History of Western Civilization to Middle Ages",
+    "courseID": "HIS100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS101",
+    "courseName": "History of Western Civilization Middle Ages to 1789",
+    "courseID": "HIS101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS102",
+    "courseName": "History of Western Civilization 1789 to Present",
+    "courseID": "HIS102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS103",
+    "courseName": "United States History to 1865",
+    "courseID": "HIS103",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS104",
+    "courseName": "United States History 1865 to Present",
+    "courseID": "HIS104",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS105",
+    "courseName": "Arizona History",
+    "courseID": "HIS105",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS110",
+    "courseName": "World History to 1500",
+    "courseID": "HIS110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS111",
+    "courseName": "World History 1500 to the Present",
+    "courseID": "HIS111",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS145",
+    "courseName": "History of Mexico",
+    "courseID": "HIS145",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HIS277",
+    "courseName": "The Modern Middle East",
+    "courseID": "HIS277",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM201",
+    "courseName": "Humanities: Universal Themes",
+    "courseID": "HUM201",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM205",
+    "courseName": "Introduction to Cinema",
+    "courseID": "HUM205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM206",
+    "courseName": "Introduction to Television Arts",
+    "courseID": "HUM206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM210",
+    "courseName": "Contemporary Cinema",
+    "courseID": "HUM210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM225",
+    "courseName": "Introduction to Popular Culture",
+    "courseID": "HUM225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM250",
+    "courseName": "Ideas and Values in the Humanities",
+    "courseID": "HUM250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "HUM251",
+    "courseName": "Ideas and Values in the Humanities",
+    "courseID": "HUM251",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "IFS201",
+    "courseName": "Information in a Post-Truth World",
+    "courseID": "IFS201",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS100",
+    "courseName": "Insurance Industry Profession",
+    "courseID": "INS100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS200",
+    "courseName": "Principles of Property and Liability Insurance",
+    "courseID": "INS200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS205",
+    "courseName": "Personal Insurance",
+    "courseID": "INS205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS210",
+    "courseName": "Commercial Insurance",
+    "courseID": "INS210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS220",
+    "courseName": "Claim Handling Principles and Practices",
+    "courseID": "INS220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS225",
+    "courseName": "Auto Claim Practices",
+    "courseID": "INS225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INS241",
+    "courseName": "Risk in an Evolving World",
+    "courseID": "INS241",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INT105",
+    "courseName": "Introduction to Interior Design",
+    "courseID": "INT105",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INT115",
+    "courseName": "Historical Architecture and Furniture",
+    "courseID": "INT115",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INT120",
+    "courseName": "Modern Architecture and Furniture",
+    "courseID": "INT120",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INT150",
+    "courseName": "Color and Design",
+    "courseID": "INT150",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "INT160",
+    "courseName": "Fabrics for Interiors",
+    "courseID": "INT160",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ITD200",
+    "courseName": "The Physical Child: Birth to Age Three",
+    "courseID": "ITD200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ITD210",
+    "courseName": "Early Attachments, Relationships, and Families: Birth to Age Three",
+    "courseID": "ITD210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ITD220",
+    "courseName": "Cognition and Communication: Birth to Age Three",
+    "courseID": "ITD220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ITS120",
+    "courseName": "Legal, Ethical and Regulatory Issues",
+    "courseID": "ITS120",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "ITS240",
+    "courseName": "Ethical Hacking and Network Defense",
+    "courseID": "ITS240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "JPN101",
+    "courseName": "Elementary Japanese I",
+    "courseID": "JPN101",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "JPN102",
+    "courseName": "Elementary Japanese II",
+    "courseID": "JPN102",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "JPN201",
+    "courseName": "Intermediate Japanese I",
+    "courseID": "JPN201",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "JPN202",
+    "courseName": "Intermediate Japanese II",
+    "courseID": "JPN202",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "LAT101",
+    "courseName": "Elementary Latin I",
+    "courseID": "LAT101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "LAT102",
+    "courseName": "Elementary Latin II",
+    "courseID": "LAT102",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "LAT201",
+    "courseName": "Intermediate Latin I",
+    "courseID": "LAT201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "LAT202",
+    "courseName": "Intermediate Latin II",
+    "courseID": "LAT202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT082",
+    "courseName": "Basic Arithmetic",
+    "courseID": "MAT082",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT092",
+    "courseName": "Introductory Algebra",
+    "courseID": "MAT092",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT103",
+    "courseName": "College Mathematics Prep",
+    "courseID": "MAT103",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT112",
+    "courseName": "Mathematical Concepts and Applications",
+    "courseID": "MAT112",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT114",
+    "courseName": "College Algebra Prep",
+    "courseID": "MAT114",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT122",
+    "courseName": "Intermediate Algebra",
+    "courseID": "MAT122",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT142",
+    "courseName": "College Mathematics",
+    "courseID": "MAT142",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT151",
+    "courseName": "College Algebra/Functions",
+    "courseID": "MAT151",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT172",
+    "courseName": "Finite Mathematics",
+    "courseID": "MAT172",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT182",
+    "courseName": "Plane Trigonometry",
+    "courseID": "MAT182",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT187",
+    "courseName": "Precalculus",
+    "courseID": "MAT187",
+    "numberOfCredits": "5",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT206",
+    "courseName": "Elements of Statistics",
+    "courseID": "MAT206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT212",
+    "courseName": "Brief Calculus",
+    "courseID": "MAT212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT217",
+    "courseName": "Mathematical Analysis for Business",
+    "courseID": "MAT217",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT221",
+    "courseName": "Calculus with Analytic Geometry I",
+    "courseID": "MAT221",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT231",
+    "courseName": "Calculus with Analytic Geometry II",
+    "courseID": "MAT231",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT241",
+    "courseName": "Calculus with Analytic Geometry III",
+    "courseID": "MAT241",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT256",
+    "courseName": "Investigating Quantity:  Number, Operations and Numeration Systems",
+    "courseID": "MAT256",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT257",
+    "courseName": "Investigating Geometry, Probability and Statistics",
+    "courseID": "MAT257",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MAT276",
+    "courseName": "Modern Differential Equations",
+    "courseID": "MAT276",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT101",
+    "courseName": "Techniques of Supervision",
+    "courseID": "MGT101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT175",
+    "courseName": "Business Organization and Management",
+    "courseID": "MGT175",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT180",
+    "courseName": "Retail Management",
+    "courseID": "MGT180",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT229",
+    "courseName": "Management and Leadership I",
+    "courseID": "MGT229",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT251",
+    "courseName": "Human Relations in Business",
+    "courseID": "MGT251",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT253",
+    "courseName": "Owning and Operating a Small Business",
+    "courseID": "MGT253",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT276",
+    "courseName": "Personnel/Human Resources Management",
+    "courseID": "MGT276",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MGT286",
+    "courseName": "Human Resource Employment Management",
+    "courseID": "MGT286",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MHL140",
+    "courseName": "Survey of Music History",
+    "courseID": "MHL140",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MHL143",
+    "courseName": "Music in World Cultures",
+    "courseID": "MHL143",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MHL145",
+    "courseName": "American Jazz and Popular Music",
+    "courseID": "MHL145",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MHL153",
+    "courseName": "Rock Music and Culture",
+    "courseID": "MHL153",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MKT268",
+    "courseName": "Merchandising",
+    "courseID": "MKT268",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MKT271",
+    "courseName": "Principles of Marketing",
+    "courseID": "MKT271",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT110",
+    "courseName": "General Principles of Nanotechnology",
+    "courseID": "MNT110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT120",
+    "courseName": "Introduction to Micro Electro-Mechanical Systems",
+    "courseID": "MNT120",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT201",
+    "courseName": "Materials, Safety, and Equipment for Nanotechnology",
+    "courseID": "MNT201",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT210",
+    "courseName": "Basic Nanotechnology Processes",
+    "courseID": "MNT210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT220",
+    "courseName": "Materials in Nanotechnology",
+    "courseID": "MNT220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT230",
+    "courseName": "Patterning for Nanotechnology",
+    "courseID": "MNT230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT240",
+    "courseName": "Nanotechnology Applications",
+    "courseID": "MNT240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "MNT250",
+    "courseName": "Characterization of Nanotechnology Structures and Materials",
+    "courseID": "MNT250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAD100",
+    "courseName": "21st Century Public Policy and Service",
+    "courseID": "PAD100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAD107",
+    "courseName": "Public Finance Administration",
+    "courseID": "PAD107",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAD122",
+    "courseName": "Public Sector Human Resources Management",
+    "courseID": "PAD122",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAD170",
+    "courseName": "Public Sector Organizational Behavior",
+    "courseID": "PAD170",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR101",
+    "courseName": "Introduction to the Paralegal Profession",
+    "courseID": "PAR101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR102",
+    "courseName": "Paralegal Research, Analysis, and Writing I",
+    "courseID": "PAR102",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR103",
+    "courseName": "Paralegal Research, Analysis, and Writing II",
+    "courseID": "PAR103",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR104",
+    "courseName": "Ethics for the Paralegal",
+    "courseID": "PAR104",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR106",
+    "courseName": "Legal Foundations for Paralegals",
+    "courseID": "PAR106",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR112",
+    "courseName": "Civil Litigation I",
+    "courseID": "PAR112",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR114",
+    "courseName": "Civil Litigation II",
+    "courseID": "PAR114",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR206",
+    "courseName": "Paralegal Business Law",
+    "courseID": "PAR206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR208",
+    "courseName": "Introduction to Tort Law",
+    "courseID": "PAR208",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR224",
+    "courseName": "Law Office Technology for the Paralegal",
+    "courseID": "PAR224",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR230",
+    "courseName": "Family Law for the Paralegal",
+    "courseID": "PAR230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR232",
+    "courseName": "Bankruptcy Law for the Paralegal",
+    "courseID": "PAR232",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR233",
+    "courseName": "Real Estate Law for the Paralegal",
+    "courseID": "PAR233",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR234",
+    "courseName": "Administrative Law for the Paralegal",
+    "courseID": "PAR234",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR236",
+    "courseName": "Estate Law for the Paralegal",
+    "courseID": "PAR236",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR237",
+    "courseName": "Paralegals and Environmental Law",
+    "courseID": "PAR237",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR238",
+    "courseName": "Paralegals and Immigration Law",
+    "courseID": "PAR238",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR239",
+    "courseName": "Legal Investigation",
+    "courseID": "PAR239",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR240",
+    "courseName": "Introduction to eDiscovery for the Paralegal",
+    "courseID": "PAR240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR260",
+    "courseName": "Legal Career Preparation",
+    "courseID": "PAR260",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR290AA",
+    "courseName": "Internship for the Paralegal",
+    "courseID": "PAR290AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PAR290AB",
+    "courseName": "Internship for the Paralegal",
+    "courseID": "PAR290AB",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PED101YG",
+    "courseName": "Gentle Yoga",
+    "courseID": "PED101YG",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PED101YH",
+    "courseName": "Hatha Yoga",
+    "courseID": "PED101YH",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PED101YP",
+    "courseName": "Power Yoga",
+    "courseID": "PED101YP",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PED115",
+    "courseName": "Lifetime Fitness",
+    "courseID": "PED115",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PHI101",
+    "courseName": "Introduction to Philosophy",
+    "courseID": "PHI101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PHI216",
+    "courseName": "Environmental Ethics",
+    "courseID": "PHI216",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PHY101",
+    "courseName": "Introduction to Physics",
+    "courseID": "PHY101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PHY111",
+    "courseName": "General Physics I",
+    "courseID": "PHY111",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PHY112",
+    "courseName": "General Physics II",
+    "courseID": "PHY112",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "POS110",
+    "courseName": "American National Government",
+    "courseID": "POS110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "POS140",
+    "courseName": "Comparative Government",
+    "courseID": "POS140",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "POS220",
+    "courseName": "U.S. and Arizona Constitution",
+    "courseID": "POS220",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "POS221",
+    "courseName": "Arizona Constitution",
+    "courseID": "POS221",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "POS222",
+    "courseName": "U.S. Constitution",
+    "courseID": "POS222",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY101",
+    "courseName": "Introduction to Psychology",
+    "courseID": "PSY101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY132",
+    "courseName": "Psychology and Culture",
+    "courseID": "PSY132",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY230",
+    "courseName": "Introduction to Statistics",
+    "courseID": "PSY230",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY231",
+    "courseName": "Laboratory for Statistics",
+    "courseID": "PSY231",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY240",
+    "courseName": "Developmental Psychology",
+    "courseID": "PSY240",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY250",
+    "courseName": "Social Psychology",
+    "courseID": "PSY250",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY260",
+    "courseName": "Psychology of Personality",
+    "courseID": "PSY260",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY266",
+    "courseName": "Abnormal Psychology",
+    "courseID": "PSY266",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "PSY290AB",
+    "courseName": "Research Methods",
+    "courseID": "PSY290AB",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "RDG100",
+    "courseName": "Successful College Reading",
+    "courseID": "RDG100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "RDG100AA",
+    "courseName": "Successful College Reading - Organizing for Success",
+    "courseID": "RDG100AA",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "RDG100AB",
+    "courseName": "Successful College Reading - Notetaking and Studying for Success",
+    "courseID": "RDG100AB",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "RDG100AC",
+    "courseName": "Successful College Reading - Taking College Exams with Success",
+    "courseID": "RDG100AC",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REC120",
+    "courseName": "Leisure and the Quality of Life",
+    "courseID": "REC120",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REC150AB",
+    "courseName": "Outdoor Adventure Skills",
+    "courseID": "REC150AB",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REL100",
+    "courseName": "World Religions",
+    "courseID": "REL100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REL101",
+    "courseName": "Introduction to Religion",
+    "courseID": "REL101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REL206",
+    "courseName": "Religion in America",
+    "courseID": "REL206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "REL290",
+    "courseName": "Women and World Religions",
+    "courseID": "REL290",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS200",
+    "courseName": "Small Business Operations",
+    "courseID": "SBS200",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS204",
+    "courseName": "Small Business Marketing And Advertising",
+    "courseID": "SBS204",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS213",
+    "courseName": "Hiring and Managing Employees",
+    "courseID": "SBS213",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS214",
+    "courseName": "Small Business Customer Relations",
+    "courseID": "SBS214",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS216",
+    "courseName": "Planning for a Small Business",
+    "courseID": "SBS216",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS220",
+    "courseName": "Internet Marketing For Small Business",
+    "courseID": "SBS220",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBS230",
+    "courseName": "Financial and Tax Management for Small Business",
+    "courseID": "SBS230",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SBU200",
+    "courseName": "Society and Business",
+    "courseID": "SBU200",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SLC201",
+    "courseName": "Introduction to Linguistics",
+    "courseID": "SLC201",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SOC101",
+    "courseName": "Introduction to Sociology",
+    "courseID": "SOC101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SOC157",
+    "courseName": "Sociology of Families and Relationships",
+    "courseID": "SOC157",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SOC212",
+    "courseName": "Gender and Society",
+    "courseID": "SOC212",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SOC241",
+    "courseName": "Race and Ethnic Relations",
+    "courseID": "SOC241",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA101",
+    "courseName": "Elementary Spanish I",
+    "courseID": "SPA101",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA102",
+    "courseName": "Elementary Spanish II",
+    "courseID": "SPA102",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA115",
+    "courseName": "Beginning Spanish Conversation I",
+    "courseID": "SPA115",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA116",
+    "courseName": "Beginning Spanish Conversation II",
+    "courseID": "SPA116",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA117",
+    "courseName": "Health Care Spanish I",
+    "courseID": "SPA117",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA118",
+    "courseName": "Health Care Spanish II",
+    "courseID": "SPA118",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA201",
+    "courseName": "Intermediate Spanish I",
+    "courseID": "SPA201",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA202",
+    "courseName": "Intermediate Spanish II",
+    "courseID": "SPA202",
+    "numberOfCredits": "4",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA205",
+    "courseName": "Spanish for Medical Interpretation I",
+    "courseID": "SPA205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA206",
+    "courseName": "Spanish for Medical Interpretation II",
+    "courseID": "SPA206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA225",
+    "courseName": "Intermediate Spanish Conversation I",
+    "courseID": "SPA225",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPA226",
+    "courseName": "Intermediate Spanish Conversation II",
+    "courseID": "SPA226",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SPH245",
+    "courseName": "Hispanic Heritage in the Southwest",
+    "courseID": "SPH245",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SSH111",
+    "courseName": "Sustainable Cities",
+    "courseID": "SSH111",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SUS100",
+    "courseName": "Introduction to Sustainability",
+    "courseID": "SUS100",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SUS110",
+    "courseName": "Sustainable World",
+    "courseID": "SUS110",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SUS231",
+    "courseName": "Careers in Sustainability",
+    "courseID": "SUS231",
+    "numberOfCredits": "1",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "SUS232",
+    "courseName": "Professional Skills in Sustainability Practice",
+    "courseID": "SUS232",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "THE111",
+    "courseName": "Introduction to Theatre",
+    "courseID": "THE111",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "THF205",
+    "courseName": "Introduction to Cinema",
+    "courseID": "THF205",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "THF206",
+    "courseName": "Introduction to Television Arts",
+    "courseID": "THF206",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "THF210",
+    "courseName": "Contemporary Cinema",
+    "courseID": "THF210",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "TQM101",
+    "courseName": "Quality Customer Service",
+    "courseID": "TQM101",
+    "numberOfCredits": "3",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "TQM230",
+    "courseName": "Teamwork Dynamics",
+    "courseID": "TQM230",
+    "numberOfCredits": "2",
+    "courseDescription": null
+  },
+  {
+    "courseCode": "CNT140AB",
+    "courseName": "Introduction to Networks",
+    "numberOfCredits": "4",
+    "courseDescription": null,
+    "courseMode": null,
+    "coursePrerequisites": null,
+    "educationalLevel": null,
+    "publication": null,
+    "publisherImprint": null,
+    "courseWorkload": null,
+    "instructor": null,
+    "courseID": "CNT140AB"
+  }
+]
