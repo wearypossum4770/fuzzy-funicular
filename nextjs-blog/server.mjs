@@ -1,9 +1,10 @@
-import express from "express";
+import express, { Router } from "express";
 import cors from "cors";
 import { readFileSync, writeFile } from "fs";
 const PORT = 3004;
 const json_url_config = { limit: "1mb", extended: true };
 var app = express();
+// subdomains mail , userpages, adminpages, portal
 let degrees = JSON.parse(readFileSync("./data/degrees.json"));
 let courses = JSON.parse(readFileSync("./data/courses.json")).sort((a, b) =>
   a.courseID.toLowerCase() > b.courseID.toLowerCase() ? 1 : -1
