@@ -1,8 +1,21 @@
 {
   "name": "fuzzy_funicular",
+  "productName": "fuzzy-funicular",
+  "description": "My well-made Vue project",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "wearypossum4770",
+    "email": "wearypossum4770@yahoo.com"
+  },
    "dependencies": {
+    "eslint": "^7.32.0",
+    "lodash.uniqueid": "^4.0.1",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "offline-plugin": "^4.8.0",
+    "promise-polyfill": "^6.0.2",
+    "scss": "^0.2.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,7 +25,6 @@
     "cors": "^2.8.5",
     "cuid": "^2.1.8",
     "next": "^11.0.0",
-
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "express-subdomain": "^1.0.5",
@@ -55,6 +67,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "pretty": "yarn prettier --write .",
+    "vue": "poi",
+    "prod": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "vue-test": "tyu",
     "dev": "nodemon --no-warnings ./www/server.mjs localhost 3003"
   },
   "eslintConfig": {
@@ -76,6 +93,11 @@
     ]
   },
   "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "poi-preset-offline": "^9.0.0",
+    "serve": "^6.1.0",
+    "tyu": "^1.0.4",
     "@vue/compiler-sfc": "^3.1.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
