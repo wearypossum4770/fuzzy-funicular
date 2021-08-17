@@ -35,7 +35,7 @@ let { CURRENT_OPERATING_SYSTEM } = process.env;
 if (CURRENT_OPERATING_SYSTEM === "DESKTOP") subprocess(desktop);
 if (CURRENT_OPERATING_SYSTEM === "CHROMEBOOK") subprocess(chromebook);
 var staticPath = path.dirname(".") + "/static/";
-const PORT = process.env.PORT || 3003;
+const PORT = /**process.env.PORT || */ 3003;
 const productionMode = process.env.NODE_ENV === "production";
 noSqlDatabase();
 main();

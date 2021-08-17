@@ -3,9 +3,13 @@ import Sequelize from "sequelize";
 import { noteInit } from "../models/note.model.sql.js";
 import { tutorialInit } from "../models/tutorials.models.sql.js";
 import { userInit } from "../models/user.model.sql.js";
+import { messageInit} from '../models/messages.model.sql.js'
 let isConnected = false;
 const sequelize = new Sequelize({
   logging: console.log,
+  onDelete: 'CASCADE',
+  timestamps: true ,
+  onUpdate: 'CASCADE',
   dialect: "sqlite",
   storage: "database.sqlite",
 });
@@ -26,12 +30,14 @@ export function main() {
   }
   console.log(`Is connection establshed:${isConnected}`);
 }
+const Tutorial = sequelize.define("Tutorials", tutorialInit),
+Users = sequelize.define("Users", userInit),
+Note = sequelize.define("Notes", noteInit),
+Messages = sequelize.define("Messages", messageInit)
+
 export default function sqlDatabase(closeConnection = null) {
   if (closeConnection) sequelize.close();
-  const Tutorial = sequelize.define("Tutorials", tutorialInit),
-    Users = sequelize.define("Users", userInit),
-    Note = sequelize.define("Notes", noteInit);
-  return { Tutorial: Tutorial, Users: Users, Note: Note };
+  return { Messages:Messages,Tutorial: Tutorial, Users: Users, Note: Note };
 }
 
 // const Note = sequelize.define('notes', { note: Sequelize.TEXT, tag: Sequelize.STRING });
